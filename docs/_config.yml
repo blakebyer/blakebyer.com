@@ -30,7 +30,8 @@ markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
-
+  - jekyll-seo-tag
+  - jekyll-include-cache
 show_downloads: false
 
 # Exclude from processing.
