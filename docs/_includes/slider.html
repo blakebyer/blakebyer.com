@@ -1,0 +1,49 @@
+<!-- Jekyll Ideal Image Slider Include -->
+<!-- https://github.com/jekylltools/jekyll-ideal-image-slider-include -->
+<!-- v1.8 (Modified for DOM-safe initialization) -->
+
+{%- if include.selector != empty -%}
+  {%- assign slider = site.data.sliders | where:"selector", include.selector | first -%}
+  {%- if slider and slider.selector -%}
+
+  <div id="{{ slider.selector }}" class="slider">
+    {%- for image in slider.images -%}
+      {%- if image.href -%}<a href="{{ image.href }}">{%- endif -%}
+      <img
+        src="{{ image.src | relative_url }}"
+        alt="{{ image.alt | escape }}"
+        title="{{ image.title | escape }}"
+        {% if image['data-src'] %} data-src="{{ image['data-src'] | relative_url }}"{% endif %}
+        {% if image['data-src-2x'] %} data-src-2x="{{ image['data-src-2x'] | relative_url }}"{% endif %}
+      >
+      {%- if image.href -%}</a>{% endif -%}
+    {%- endfor -%}
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      if (typeof IdealImageSlider !== 'undefined') {
+        var slider = new IdealImageSlider.Slider({
+          selector: '#{{ slider.selector }}',
+          height: {{ slider.settings.height | default: "'auto'" }},
+          effect: {{ slider.settings.effect | default: "'slide'" }},
+          interval: {{ slider.settings.interval | default: "4000" }},
+          transitionDuration: {{ slider.settings.transition_duration | default: "1000" }},
+          captions: {{ slider.captions | default: false }},
+          bullets: {{ slider.bullets | default: false }}
+        });
+
+        {% if slider.bullets %}slider.addBulletNav();{% endif %}
+        {% if slider.captions %}slider.addCaptions();{% endif %}
+        slider.start();
+      } else {
+        console.warn("⚠️ IdealImageSlider is not defined — slider won't start.");
+      }
+    });
+  </script>
+
+  {%- else -%}
+    <p><strong>⚠️ Slider '{{ include.selector }}' not found in _data/sliders.yml</strong></p>
+  {%- endif -%}
+{%- endif -%}
+

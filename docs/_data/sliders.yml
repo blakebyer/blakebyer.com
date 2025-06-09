@@ -1,0 +1,13 @@
+- selector: slider-2025-05-15
+  bullets: false
+  captions: true
+  images:
+    - src: /assets/images/fogodechao.jpg
+      title: "From left to right: Justin Miller, Elisandra Miller, Ollie Miller, Blake Byer, Mark Ebbert."
+    - src: /assets/images/blake_poster.jpg
+      title: "At my poster, presented Tuesday, May 13th."
+    - src: /assets/images/weisman.jpg
+      title: "The Weisman Art Museum, a Frank Gehry building, on University of Minnesota's campus."
+  settings:
+    height: "'300px'"
+    effect: "'fade'"
