@@ -4,15 +4,9 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Hello, I am Blake, a fourth-year neuroscience and computer science student at the University of Kentucky.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Currently, my research focuses on rare disease digital phenotyping using large-scale electronic health records. My past research has been on [nucleotide transformer benchmarking](https://www.biorxiv.org/content/10.1101/2025.04.09.647946v1), 
+and Alzheimer's disease genomics. 
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+I am looking for a lab for graduate school. Please [email me](mailto:bbyer04@gmail.com)!
