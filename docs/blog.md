@@ -2,8 +2,5 @@
 layout: archive
 title: "Blog"
 permalink: /blog/
-author_profile: true
+entries_layout: grid
 ---
-
-All of my blog posts live here.
-

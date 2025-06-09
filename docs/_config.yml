@@ -39,14 +39,19 @@ header_pages:
   - blog.md
   - projects.md
   - about.md
-
 defaults:
   # _posts
   - scope:
       path: ""
       type: posts
     values:
-      show_date: true
+      layout: single
+      author_profile: false
+      read_time: true
+      comments: false
+      share: false
+      related: true
+
 search: true
 
 author:
