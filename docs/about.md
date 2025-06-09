@@ -2,6 +2,7 @@
 layout: single
 title: About
 permalink: /about/
+author_profile: true
 ---
 
 Hello, I am Blake, a fourth-year neuroscience and computer science student at the University of Kentucky.
