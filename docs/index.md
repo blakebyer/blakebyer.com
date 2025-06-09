@@ -4,3 +4,12 @@
 
 layout: home
 ---
+
+# Welcome to My Site! #
+
+## Sections
+
+- [About][about.md]
+- [Blog](./_posts)
+- [GitHub](https://github.com/blakebyer)
+
