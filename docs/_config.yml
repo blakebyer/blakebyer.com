@@ -39,6 +39,24 @@ header_pages:
   - blog.md
   - projects.md
   - about.md
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      show_date: true
+search: true
+
+author:
+  name: "Blake Byer"
+  avatar: "/assets/images/profile3.jpg"   # path to your image
+  bio: "Systems neuroscience researcher"
+  location: "USA"
+  email: "bbyer04@gmail.com"
+  url: "https://blakebyer.github.io"
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
