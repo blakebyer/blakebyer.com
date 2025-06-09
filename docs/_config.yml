@@ -31,7 +31,7 @@ plugins:
   - jekyll-feed
   - jekyll-remote-theme
 
-show_downloads: true
+show_downloads: false
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
