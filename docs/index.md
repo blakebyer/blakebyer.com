@@ -6,11 +6,6 @@ layout: home
 title: Home
 ---
 
-# Welcome to My Site! #
+Hello, I'm Blake Byer, a student at the University of Kentucky. I study neuroscience and computer science.
 
-## Sections
-
-- [About][about.md]
-- [Blog](./_posts)
-- [GitHub](https://github.com/blakebyer)
-
+Feel free to browse around!
