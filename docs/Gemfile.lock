@@ -46,6 +46,7 @@ GEM
       jekyll (>= 3.7, < 5.0)
     jekyll-gist (1.5.0)
       octokit (~> 4.2)
+    jekyll-graphviz (0.1.0)
     jekyll-include-cache (0.2.1)
       jekyll (>= 3.7, < 5.0)
     jekyll-paginate (1.1.0)
@@ -112,6 +113,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll (~> 4.4)
   jekyll-feed (~> 0.6)
+  jekyll-graphviz
   jekyll-include-cache
   jekyll-remote-theme
   jekyll-seo-tag
