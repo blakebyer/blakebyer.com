@@ -1,9 +1,8 @@
-name: Deploy Jekyll with Graphviz and plugins from /docs
+name: Build and Deploy Jekyll Site with Graphviz
 
 on:
   push:
     branches: ["main"]
-  workflow_dispatch:
 
 permissions:
   contents: read
@@ -19,39 +18,37 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Install Graphviz
-        uses: ts-graphviz/setup-graphviz@v1
-
-      - name: Set up Ruby
-        uses: ruby/setup-ruby@v1
+      - uses: actions/checkout@v4
+      
+      # Setup Ruby + Jekyll
+      - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 3.1
+          ruby-version: '3.1'
+          bundler-cache: true
 
-      - name: Install dependencies from /docs
-        working-directory: ./docs
-        run: |
-          gem install bundler
+      # Install Graphviz
+      - uses: ts-graphviz/setup-graphviz@v2
+
+      # Install dependencies and build site
+      - run: |
           bundle install
+          bundle exec jekyll build --source docs --destination _site
 
-      - name: Build Jekyll site from /docs
-        working-directory: ./docs
-        run: bundle exec jekyll build --source . --destination ../_site
-
-      - name: Upload GitHub Pages artifact
-        uses: actions/upload-pages-artifact@v3
+      # Deploy to GitHub Pages
+      - uses: actions/upload-pages-artifact@v3
         with:
-          path: ./_site
+          path: _site
 
   deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    needs: build
+
     steps:
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+      - uses: actions/deploy-pages@v4
