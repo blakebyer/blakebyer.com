@@ -34,7 +34,8 @@ plugins:
   - jekyll-include-cache
   - jekyll-graphviz
 show_downloads: false
-
+graphviz:
+  format: jpg
 header_pages:
   - index.md
   - blog.md

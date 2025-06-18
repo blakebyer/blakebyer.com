@@ -16,4 +16,10 @@ var store = [{
         "tags": [],
         "url": "/blog/2025/05/15/glbio25.html",
         "teaser": null
+      },{
+        "title": "Neuroscience for Beginners",
+        "excerpt":"What is your brain? The brain is a 3-pound organ about the size of two balled up fists sitting within your skull (cranium). It is the gatekeeper to your conscious experience of reality, the source of your intellect, and the lifeforce of your bodily functions. Two schematic representations of the...","categories": ["blog"],
+        "tags": [],
+        "url": "/blog/2025/06/17/neurobeginners.html",
+        "teaser": null
       }]
