@@ -26,7 +26,7 @@ jobs:
           NODE_ENV: "production"
         with:
           enable_cache: true
-          base_path: ./docs  # this tells jekyll-action-ts to use /docs as the site root
+          jekyll_src: ./docs  # jekyll-action-ts should use /docs as the site root
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
