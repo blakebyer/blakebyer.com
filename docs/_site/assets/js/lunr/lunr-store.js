@@ -22,4 +22,10 @@ var store = [{
         "tags": [],
         "url": "/blog/2025/06/17/neurobeginners.html",
         "teaser": null
+      },{
+        "title": "Cells of the Nervous System",
+        "excerpt":"Levels of Organization of Multicellular Organisms In order from smallest to largest, the body is composed of: Organelles: cellular components built for specific functions (e.g. endoplasmic reticulum). Cells: basic subunit of biology (e.g. nerve cell). Tissue: a group of similar cells that perform a specific function (e.g. smooth muscle). Organ:...","categories": ["blog"],
+        "tags": [],
+        "url": "/blog/2025/06/17/neurocells.html",
+        "teaser": null
       }]
