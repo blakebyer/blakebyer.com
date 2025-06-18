@@ -10,7 +10,7 @@ The brain is a 3-pound organ about the size of two balled up fists sitting withi
 
 <figure>
   <img src="/assets/images/europeana-_1tEaF9cuq8-unsplash.jpg" alt="Human brain illustration">
-  <figcaption><em>Two schematic representations of the human brain by Tinkelenberg, J, Public Domain CC0 1.0.
+  <figcaption><em>Two schematic representations of the human brain by Tinkelenberg, J, Public Domain.
   </em></figcaption>
 </figure>
 
