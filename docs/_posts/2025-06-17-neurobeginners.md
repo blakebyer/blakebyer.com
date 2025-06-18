@@ -58,7 +58,7 @@ The central nervous system (CNS) is defined as the brain and spinal cord, so all
 
 <figure>
   <img src="/assets/images/NSdiagram.jpg" alt="Divisions of NS">
-  <figcaption><em>A diagram of the hierarchy of the nervous system in vertebrates by Fuzzform at English Wikipedia, CC BY-SA 3.0
+  <figcaption><em>A diagram of the hierarchy of the nervous system in vertebrates by Fuzzform at English Wikipedia, CC BY-SA 3.0.
   </em></figcaption>
 </figure>
 
