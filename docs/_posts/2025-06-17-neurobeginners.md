@@ -72,11 +72,11 @@ Sympathetic nerves are responsible for fight or flight responses, priming you fo
   </em></figcaption>
 </figure>
 
-## Grey Matter and White Matter ## 
-Tissue in the central nervous system can be further divided into grey and white matter. Grey matter (the outer layer) is composed of nerve cells while white matter (the inner layer) is composed of their projections. The white appearance of white matter is due to myelin, a fatty substance which acts as an insulator for neuronal signals.
+## Gray Matter and White Matter ## 
+Tissue in the central nervous system can be further divided into gray and white matter. Gray matter (the outer layer) is composed of nerve cells while white matter (the inner layer) is composed of their projections. The white appearance of white matter is due to myelin, a fatty substance which acts as an insulator for neuronal signals.
 
 <figure>
-  <img src="/assets/images/Gray_matter_axonal_connectivity.jpg" alt="Grey-white matter">
+  <img src="/assets/images/Gray_matter_axonal_connectivity.jpg" alt="Gray-white matter">
   <figcaption><em>Gray matter axonal connectivity maps by Ms. Emma Vought at English Wikipedia, CC BY 4.0.
   </em></figcaption>
 </figure>
