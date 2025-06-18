@@ -1,6 +1,6 @@
 ---
 title: Cells of the Nervous System
-date: 2025-06-18
+date: 2025-06-17
 layout: single
 categories: [blog]
 excerpt: "An overview of cells in the nervous system."
