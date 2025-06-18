@@ -1,10 +1,9 @@
-name: Build and deploy jekyll site to /docs folder
+name: Build Jekyll with Graphviz and push to /docs
 
 on:
   push:
     branches:
       - main
-
   workflow_dispatch:
 
 jobs:
@@ -12,27 +11,29 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 📂 checkout repository
+      - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: 🔧 install Graphviz
+      - name: Install Graphviz
         uses: ts-graphviz/setup-graphviz@v1
 
-      - name: 💎 setup ruby
+      - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: 2.7
 
-      - name: 🔨 build site with jekyll
+      - name: Install dependencies
         run: |
           gem install bundler
           bundle install
-          bundle exec jekyll build --destination docs
 
-      - name: 📤 commit and push built site to /docs
+      - name: Build Jekyll site to /docs
+        run: bundle exec jekyll build --destination docs
+
+      - name: Commit and push built site to /docs
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add docs
-          git commit -m "Build site to /docs [skip ci]" || echo "No changes to commit"
+          git commit -m "Build site with graphviz to /docs [skip ci]" || echo "No changes to commit"
           git push
