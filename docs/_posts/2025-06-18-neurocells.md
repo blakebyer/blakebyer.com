@@ -19,7 +19,7 @@ In order from smallest to largest, the body is composed of:
     alt="Levels of organization mouse">
     <figcaption><em>
     Organization levels from cell until organism by LadyofHats at English Wikipedia, Public Domain.
-    </em><figcaption>
+    </em></figcaption>
 </figure>
 
 ## Cells ##
