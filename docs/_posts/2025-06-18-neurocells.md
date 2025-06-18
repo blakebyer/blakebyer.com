@@ -40,6 +40,7 @@ A typical animal cell is surrounded by a cell (plasma) membrane and has many dif
 
 A basic taxonomy of cells within the nervous system may look like the following:
 
+{% graphviz %}
 digraph flowchart {
    graph [layout = dot, rankdir = TB, splines = ortho, fontname = 'Helvetica']
 
@@ -60,3 +61,4 @@ digraph flowchart {
   C -> F
   C -> G
 }
+{% endgraphviz %}
