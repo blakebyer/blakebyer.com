@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-06-17T21:18:50-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Blake Byer</title><subtitle>This is the personal webpage of Blake Byer.</subtitle><author><name>Blake Byer</name><email>bbyer04@gmail.com</email><uri>https://blakebyer.github.io</uri></author><entry><title type="html">Neuroscience for Beginners</title><link href="http://localhost:4000/blog/2025/06/17/neurobeginners.html" rel="alternate" type="text/html" title="Neuroscience for Beginners" /><published>2025-06-17T00:00:00-07:00</published><updated>2025-06-17T00:00:00-07:00</updated><id>http://localhost:4000/blog/2025/06/17/neurobeginners</id><content type="html" xml:base="http://localhost:4000/blog/2025/06/17/neurobeginners.html"><![CDATA[<h2 id="what-is-your-brain">What is your brain?</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-06-17T21:25:28-07:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Blake Byer</title><subtitle>This is the personal webpage of Blake Byer.</subtitle><author><name>Blake Byer</name><email>bbyer04@gmail.com</email><uri>https://blakebyer.github.io</uri></author><entry><title type="html">Neuroscience for Beginners</title><link href="http://localhost:4000/blog/2025/06/17/neurobeginners.html" rel="alternate" type="text/html" title="Neuroscience for Beginners" /><published>2025-06-17T00:00:00-07:00</published><updated>2025-06-17T00:00:00-07:00</updated><id>http://localhost:4000/blog/2025/06/17/neurobeginners</id><content type="html" xml:base="http://localhost:4000/blog/2025/06/17/neurobeginners.html"><![CDATA[<h2 id="what-is-your-brain">What is your brain?</h2>
 <p>The brain is a 3-pound organ about the size of two balled up fists sitting within your skull (cranium). It is the gatekeeper to your conscious experience of reality, the source of your intellect, and the lifeforce of your bodily functions.</p>
 
 <figure>
@@ -122,26 +122,7 @@ When referring to the brain:</p>
 
 <p>A basic taxonomy of cells within the nervous system may look like the following:</p>
 
-<p>digraph flowchart {
-   graph [layout = dot, rankdir = TB, splines = ortho, fontname = ‘Helvetica’]</p>
-
-<p>node [shape = box, style = filled, color = ‘#D2E3F3’, fontcolor = black,
-        fontname = ‘Helvetica’]
-  A [label = ‘Cell of Nervous System’]
-  B [label = ‘Neuron’]
-  C [label = ‘Glia’]
-  D [label = ‘Cholinergic neuron’]
-  E [label = ‘Dopaminergic neuron’]
-  F [label = ‘Astrocyte’]
-  G [label = ‘Microglia’]</p>
-
-<p>A -&gt; B
-  A -&gt; C
-  B -&gt; D
-  B -&gt; E
-  C -&gt; F
-  C -&gt; G
-}</p>]]></content><author><name>Blake Byer</name><email>bbyer04@gmail.com</email><uri>https://blakebyer.github.io</uri></author><category term="blog" /><summary type="html"><![CDATA[An overview of cells in the nervous system.]]></summary></entry><entry><title type="html">GLBIO 2025</title><link href="http://localhost:4000/blog/2025/05/15/glbio25.html" rel="alternate" type="text/html" title="GLBIO 2025" /><published>2025-05-15T00:00:00-07:00</published><updated>2025-05-15T00:00:00-07:00</updated><id>http://localhost:4000/blog/2025/05/15/glbio25</id><content type="html" xml:base="http://localhost:4000/blog/2025/05/15/glbio25.html"><![CDATA[<p>I spent last week in Minneapolis, Minnesota at the International Society for Computational Biology Great Lakes Bioinformatics Conference, aptly named
+<p><img src="/assets/figs/neurocell_taxonomy.svg" alt="Cell Taxonomy" /></p>]]></content><author><name>Blake Byer</name><email>bbyer04@gmail.com</email><uri>https://blakebyer.github.io</uri></author><category term="blog" /><summary type="html"><![CDATA[An overview of cells in the nervous system.]]></summary></entry><entry><title type="html">GLBIO 2025</title><link href="http://localhost:4000/blog/2025/05/15/glbio25.html" rel="alternate" type="text/html" title="GLBIO 2025" /><published>2025-05-15T00:00:00-07:00</published><updated>2025-05-15T00:00:00-07:00</updated><id>http://localhost:4000/blog/2025/05/15/glbio25</id><content type="html" xml:base="http://localhost:4000/blog/2025/05/15/glbio25.html"><![CDATA[<p>I spent last week in Minneapolis, Minnesota at the International Society for Computational Biology Great Lakes Bioinformatics Conference, aptly named
 GLBIO 2025. I presented a poster on Alzheimer’s disease drug repurposing using multi-ontology enrichment analysis, with an a priori gene set derived 
 from AD GWAS. Using this method I prioritized approximately 100 FDA-approved repurposable drugs and I discovered that 7 out of 89 (8%) FDA-approved drugs interacting
 with AD risk genes are used to treat AD, suggesting ample repurposing opportunities!</p>

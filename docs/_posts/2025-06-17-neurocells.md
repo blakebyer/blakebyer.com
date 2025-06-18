@@ -40,4 +40,4 @@ A typical animal cell is surrounded by a cell (plasma) membrane and has many dif
 
 A basic taxonomy of cells within the nervous system may look like the following:
 
-<pre><code>--- title: "Graphviz Diagram Example" layout: post --- ```dot digraph flowchart { graph [layout = dot, rankdir = TB, splines = ortho, fontname = "Helvetica"]; node [shape = box, style = filled, color = "#D2E3F3", fontcolor = black, fontname = "Helvetica"]; A [label = "Cell of Nervous System"]; B [label = "Neuron"]; C [label = "Glia"]; D [label = "Cholinergic neuron"]; E [label = "Dopaminergic neuron"]; F [label = "Astrocyte"]; G [label = "Microglia"]; A -> B; A -> C; B -> D; B -> E; C -> F; C -> G; } ``` </code></pre>
+![Cell Taxonomy](/_site/assets/figs/neurocell_taxonomy.jpg)

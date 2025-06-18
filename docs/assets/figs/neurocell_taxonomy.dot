@@ -1,0 +1,22 @@
+---
+---
+digraph flowchart {
+  graph [layout = dot, rankdir = TB, splines = ortho, fontname = "Helvetica"];
+
+  node [shape = box, style = filled, color = "#D2E3F3", fontcolor = black, fontname = "Helvetica"];
+
+  A [label = "Cell of Nervous System"];
+  B [label = "Neuron"];
+  C [label = "Glia"];
+  D [label = "Cholinergic neuron"];
+  E [label = "Dopaminergic neuron"];
+  F [label = "Astrocyte"];
+  G [label = "Microglia"];
+
+  A -> B;
+  A -> C;
+  B -> D;
+  B -> E;
+  C -> F;
+  C -> G;
+}
