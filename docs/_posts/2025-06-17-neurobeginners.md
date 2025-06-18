@@ -53,7 +53,7 @@ A second introductory anatomy piece are the planes of the brain. This is particu
   </em></figcaption>
 </figure>
 
-## Divisions of the nervous system ##
+## Divisions of the Nervous System ##
 The central nervous system (CNS) is defined as the brain and spinal cord, so all nerves outside of these areas, including the cranial nerves and spinal nerves, are considered the peripheral nervous system (PNS).
 
 <figure>
