@@ -8,6 +8,7 @@ group :jekyll_plugins do
   gem "jekyll-seo-tag"
   gem "minimal-mistakes-jekyll"
   gem "jekyll-include-cache"
+  gem "jekyll-graphviz"
 end
 
 platforms :mingw, :x64_mingw, :mswin, :jruby do

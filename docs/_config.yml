@@ -32,6 +32,7 @@ plugins:
   - jekyll-remote-theme
   - jekyll-seo-tag
   - jekyll-include-cache
+  - jekyll-graphviz
 show_downloads: false
 
 header_pages:
