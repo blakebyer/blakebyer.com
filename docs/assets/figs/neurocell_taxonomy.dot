@@ -6,14 +6,15 @@ digraph flowchart {
   node [shape = box, style = filled, color = "#D2E3F3", fontcolor = black, fontname = "Helvetica"];
 
   A [label = "CNS Cell"];
-  B [label = "Neuron"];
-  C [label = "Glia"];
-  D [label = "Pyramidal neuron"];
-  E [label = "Bipolar neuron"];
-  F [label = "Purkinje cell"]
-  G [label = "Astrocyte"];
-  H [label = "Microglia"];
-  I [label = "Oligodendrocyte"];
+  B [label = "Glia"];
+  C [label = "Neuron"];
+  D [label = "Astrocyte"];
+  E [label = "Microglia"];
+  F [label = "Oligodendrocyte"];
+  G [label = "Bipolar neuron"];
+  H [label = "Purkinje cell"];
+  I [label = "Pyramidal neuron"];
+
 
   A -> B;
   A -> C;
