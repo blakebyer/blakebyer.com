@@ -87,7 +87,7 @@ There are many types of cells within the central nervous system (CNS) but the ma
     alt="Microglia nibbles synapses">
     <figcaption><em>
     An image captured using focused ion beam scanning electron microscopy shows the tiny fingers of several synapses being "nibbled" by a single microglia, pictured in red. Photo by L. Weinhard, EMBL Rome (2018), CC BY 4.0.
-    </em><figcaption>
+    </em></figcaption>
 </figure>
 
 Below is a simple taxonomy of cells within the central nervous system. In this taxonomy, the neuronal cells are separated according to morphology (shape). Neurons may also be classified by the neurotransmitter they secrete, such as acetylcholine (cholinergic) or dopamine (dopaminergic). These distinctions are not mutually exclusive, meaning a cell could be bipolar and glutamatergic, for instance. 
