@@ -23,9 +23,4 @@ digraph flowchart {
   C -> G;
   C -> H;
   C -> I;
-
-  { rank = same; D; F }
-  { rank = same; H; I }
-  { rank = min; E }
-  { rank = min; G }
 }
