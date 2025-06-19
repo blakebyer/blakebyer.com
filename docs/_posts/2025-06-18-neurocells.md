@@ -45,7 +45,7 @@ Nerve cells, commonly known as neurons, are the excitable cells of the nervous s
     alt="Neuron anatomy">
     <figcaption><em>
     Diagram of a neuron by U.S. National Cancer Institute at English Wikipedia, CC BY-SA 3.0.
-    </em><figcaption>
+    </em></figcaption>
 </figure>
 
 A neuron has eight main parts:
