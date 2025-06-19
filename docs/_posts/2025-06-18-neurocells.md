@@ -5,7 +5,7 @@ layout: single
 categories: [blog]
 excerpt: "A primer on cells in the nervous system"
 ---
-## Levels of Organization of Multicellular Organisms ##
+## Levels of Organization in Multicellular Organisms ##
 In order from smallest to largest, an organism is composed of:
 1. Organelles: cellular components built for specific functions (e.g. endoplasmic reticulum).
 2. Cells: basic subunit of biology (e.g. nerve cell).
@@ -79,23 +79,31 @@ As neuroscientist Kelsey C. Martin noted in 2016:
 The synapse is a remarkable site for information integration in the brain traditionally viewed as a connection between adjacent neurons. However, recent research has uncovered that non-neuronal support cells—glia—also play a crucial role in regulating synaptic function, as explored in the following section.
 
 ## Cellular Taxonomy of the Central Nervous System ##
+There are many types of cells within the central nervous system (CNS) but the main distinction is between neuronal cells and support cells referred to as glia. Neuronal cells are unique because they transmit electrical signals. Glia serve a multitude of roles, including neurotransmitter production and metabolism, synaptic plasticity, structural support, and the formation of myelin. As shown in the following SEM image, we now know that microglia participate in synaptic pruning by removing dendritic spines.
 
-A basic taxonomy of cells within the central nervous system may look like the following:
+<figure>
+    <img
+    src="/assets/images/PR2big.jpg"
+    alt="Microglia nibbles synapses">
+    <figcaption><em>
+    An image captured using focused ion beam scanning electron microscopy shows the tiny fingers of several synapses being "nibbled" by a single microglia, pictured in red. Photo by L. Weinhard, EMBL Rome (2018), CC BY 4.0.
+    </em><figcaption>
+</figure>
+
+Below is a simple taxonomy of cells within the central nervous system. In this taxonomy, the neuronal cells are separated according to morphology (shape). Neurons may also be classified by the neurotransmitter they secrete, such as acetylcholine (cholinergic) or dopamine (dopaminergic). These distinctions are not mutually exclusive, meaning a cell could be bipolar and glutamatergic, for instance. 
 
 ![Cell Taxonomy](/assets/figs/neurocell_taxonomy.svg)
 
-There are many types of cells within the central nervous system (CNS) but the main distinction is between neuronal cells and support cells referred to as glia. Neuronal cells are unique because they transmit electrical signals. Glia serve a multitude of roles, including neurotransmitter production and metabolism, synaptic plasticity, structural support, and the formation of myelin. 
-
-In this taxonomy, the neuronal cells are separated according to morphology (shape). Neurons may also be classified by the neurotransmitter they secrete, such as acetylcholine (cholinergic) or dopamine (dopaminergic). These distinctions are not mutually exclusive, meaning a cell could be bipolar and glutamatergic, for instance. Here is a brief description of each type of neuron in diagram:
+Here is a brief description of each type of neuron in diagram:
 
 * Bipolar neuron has one dendrite and one axon extending from the soma
 * Purkinje cells are found in the cerebellar cortex and have massive dendritic trees
 * Pyramidal neurons are found in the cerebral cortex and have a pyramid-shaped soma, with the dendrite directed superficially
 
-There are fewer types of glial cells than neurons, but additional types are discovered constantly. The glial cells in this table are:
+There are fewer types of glial cells than neurons, but additional types are discovered constantly. The glial cells in the hierarchy are:
 
 * Astrocytes are star-shaped glial cells responsible for neurotransmitter synthesis, release, and reuptake. They also help form the blood-brain barrier
-* Microglia are the innate immune cells of the CNS that phagocytose cellular debris
+* Microglia are the innate immune cells of the CNS that phagocytose cellular debris, including synaptic spines
 * Oligodendrocytes wrap and myelinate neurons, improving their conduction velocity
 
 ## Conclusion ##
