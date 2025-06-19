@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://blakebyer.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://blakebyer.github.io//" rel="alternate" type="text/html" /><updated>2025-06-19T04:32:24+00:00</updated><id>https://blakebyer.github.io//feed.xml</id><title type="html">Blake Byer</title><subtitle>This is the personal webpage of Blake Byer.</subtitle><author><name>Blake Byer</name><email>bbyer04@gmail.com</email><uri>https://blakebyer.github.io</uri></author><entry><title type="html">Cells of the Nervous System</title><link href="https://blakebyer.github.io//blog/2025/06/18/neurocells.html" rel="alternate" type="text/html" title="Cells of the Nervous System" /><published>2025-06-18T00:00:00+00:00</published><updated>2025-06-18T00:00:00+00:00</updated><id>https://blakebyer.github.io//blog/2025/06/18/neurocells</id><content type="html" xml:base="https://blakebyer.github.io//blog/2025/06/18/neurocells.html"><![CDATA[<h2 id="levels-of-organization-of-multicellular-organisms">Levels of Organization of Multicellular Organisms</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://blakebyer.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://blakebyer.github.io//" rel="alternate" type="text/html" /><updated>2025-06-19T04:49:46+00:00</updated><id>https://blakebyer.github.io//feed.xml</id><title type="html">Blake Byer</title><subtitle>This is the personal webpage of Blake Byer.</subtitle><author><name>Blake Byer</name><email>bbyer04@gmail.com</email><uri>https://blakebyer.github.io</uri></author><entry><title type="html">Cells of the Nervous System</title><link href="https://blakebyer.github.io//blog/2025/06/18/neurocells.html" rel="alternate" type="text/html" title="Cells of the Nervous System" /><published>2025-06-18T00:00:00+00:00</published><updated>2025-06-18T00:00:00+00:00</updated><id>https://blakebyer.github.io//blog/2025/06/18/neurocells</id><content type="html" xml:base="https://blakebyer.github.io//blog/2025/06/18/neurocells.html"><![CDATA[<h2 id="levels-of-organization-in-multicellular-organisms">Levels of Organization in Multicellular Organisms</h2>
 <p>In order from smallest to largest, an organism is composed of:</p>
 <ol>
   <li>Organelles: cellular components built for specific functions (e.g. endoplasmic reticulum).</li>
@@ -70,35 +70,38 @@
 <p>The synapse is a remarkable site for information integration in the brain traditionally viewed as a connection between adjacent neurons. However, recent research has uncovered that non-neuronal support cells—glia—also play a crucial role in regulating synaptic function, as explored in the following section.</p>
 
 <h2 id="cellular-taxonomy-of-the-central-nervous-system">Cellular Taxonomy of the Central Nervous System</h2>
+<p>There are many types of cells within the central nervous system (CNS) but the main distinction is between neuronal cells and support cells referred to as glia. Neuronal cells are unique because they transmit electrical signals. Glia serve a multitude of roles, including neurotransmitter production and metabolism, synaptic plasticity, structural support, and the formation of myelin. As shown in the following SEM image, we now know that microglia participate in synaptic pruning by removing dendritic spines.</p>
 
-<p>A basic taxonomy of cells within the central nervous system may look like the following:</p>
+<figure>
+    <img src="/assets/images/PR2big.jpg" alt="Microglia nibbles synapses" />
+    <figcaption><em>
+    An image captured using focused ion beam scanning electron microscopy shows the tiny fingers of several synapses being "nibbled" by a single microglia, pictured in red. Photo by L. Weinhard, EMBL Rome (2018), CC BY 4.0.
+    </em><figcaption>
+&lt;/figure&gt;
 
-<p><img src="/assets/figs/neurocell_taxonomy.svg" alt="Cell Taxonomy" /></p>
+Below is a simple taxonomy of cells within the central nervous system. In this taxonomy, the neuronal cells are separated according to morphology (shape). Neurons may also be classified by the neurotransmitter they secrete, such as acetylcholine (cholinergic) or dopamine (dopaminergic). These distinctions are not mutually exclusive, meaning a cell could be bipolar and glutamatergic, for instance. 
 
-<p>There are many types of cells within the central nervous system (CNS) but the main distinction is between neuronal cells and support cells referred to as glia. Neuronal cells are unique because they transmit electrical signals. Glia serve a multitude of roles, including neurotransmitter production and metabolism, synaptic plasticity, structural support, and the formation of myelin.</p>
+![Cell Taxonomy](/assets/figs/neurocell_taxonomy.svg)
 
-<p>In this taxonomy, the neuronal cells are separated according to morphology (shape). Neurons may also be classified by the neurotransmitter they secrete, such as acetylcholine (cholinergic) or dopamine (dopaminergic). These distinctions are not mutually exclusive, meaning a cell could be bipolar and glutamatergic, for instance. Here is a brief description of each type of neuron in diagram:</p>
+Here is a brief description of each type of neuron in diagram:
 
-<ul>
-  <li>Bipolar neuron has one dendrite and one axon extending from the soma</li>
-  <li>Purkinje cells are found in the cerebellar cortex and have massive dendritic trees</li>
-  <li>Pyramidal neurons are found in the cerebral cortex and have a pyramid-shaped soma, with the dendrite directed superficially</li>
-</ul>
+* Bipolar neuron has one dendrite and one axon extending from the soma
+* Purkinje cells are found in the cerebellar cortex and have massive dendritic trees
+* Pyramidal neurons are found in the cerebral cortex and have a pyramid-shaped soma, with the dendrite directed superficially
 
-<p>There are fewer types of glial cells than neurons, but additional types are discovered constantly. The glial cells in this table are:</p>
+There are fewer types of glial cells than neurons, but additional types are discovered constantly. The glial cells in the hierarchy are:
 
-<ul>
-  <li>Astrocytes are star-shaped glial cells responsible for neurotransmitter synthesis, release, and reuptake. They also help form the blood-brain barrier</li>
-  <li>Microglia are the innate immune cells of the CNS that phagocytose cellular debris</li>
-  <li>Oligodendrocytes wrap and myelinate neurons, improving their conduction velocity</li>
-</ul>
+* Astrocytes are star-shaped glial cells responsible for neurotransmitter synthesis, release, and reuptake. They also help form the blood-brain barrier
+* Microglia are the innate immune cells of the CNS that phagocytose cellular debris, including synaptic spines
+* Oligodendrocytes wrap and myelinate neurons, improving their conduction velocity
 
-<h2 id="conclusion">Conclusion</h2>
-<p>Our understanding of biology happens at many different scales. At the molecular level, proteins and nucleic acids are in the nanometer (nm) range, while cells—the building blocks of life—range from 1-100 micrometers (µm). As cells assemble into tissues, tissues combine into organs, and organs work in systems, each level is a microcosm of the next. A blue whale may be over a billion times larger than a single protein, yet both are products of the same organizing principles.</p>
+## Conclusion ##
+Our understanding of biology happens at many different scales. At the molecular level, proteins and nucleic acids are in the nanometer (nm) range, while cells—the building blocks of life—range from 1-100 micrometers (µm). As cells assemble into tissues, tissues combine into organs, and organs work in systems, each level is a microcosm of the next. A blue whale may be over a billion times larger than a single protein, yet both are products of the same organizing principles.
 
-<p>In the nervous system, this organization becomes especially complex. With approximately 100 billion neurons and over 100 trillion synaptic connections, the brain operates with specialized networks which are moderated by glia. Understanding how all these parts fit together, by using a <em>systems approach</em>, can help us solve neuropsychiatric disease.</p>
+In the nervous system, this organization becomes especially complex. With approximately 100 billion neurons and over 100 trillion synaptic connections, the brain operates with specialized networks which are moderated by glia. Understanding how all these parts fit together, by using a <em>systems approach</em>, can help us solve neuropsychiatric disease.
 
-<p>In the next post, we will cover the molecular and psychological basis of memory. Stay curious!</p>]]></content><author><name>Blake Byer</name><email>bbyer04@gmail.com</email><uri>https://blakebyer.github.io</uri></author><category term="blog" /><summary type="html"><![CDATA[A primer on cells in the nervous system]]></summary></entry><entry><title type="html">Neuroscience for Beginners</title><link href="https://blakebyer.github.io//blog/2025/06/17/neurobeginners.html" rel="alternate" type="text/html" title="Neuroscience for Beginners" /><published>2025-06-17T00:00:00+00:00</published><updated>2025-06-17T00:00:00+00:00</updated><id>https://blakebyer.github.io//blog/2025/06/17/neurobeginners</id><content type="html" xml:base="https://blakebyer.github.io//blog/2025/06/17/neurobeginners.html"><![CDATA[<h2 id="what-is-your-brain">What is your brain?</h2>
+In the next post, we will cover the molecular and psychological basis of memory. Stay curious!
+</figcaption></figcaption></figure>]]></content><author><name>Blake Byer</name><email>bbyer04@gmail.com</email><uri>https://blakebyer.github.io</uri></author><category term="blog" /><summary type="html"><![CDATA[A primer on cells in the nervous system]]></summary></entry><entry><title type="html">Neuroscience for Beginners</title><link href="https://blakebyer.github.io//blog/2025/06/17/neurobeginners.html" rel="alternate" type="text/html" title="Neuroscience for Beginners" /><published>2025-06-17T00:00:00+00:00</published><updated>2025-06-17T00:00:00+00:00</updated><id>https://blakebyer.github.io//blog/2025/06/17/neurobeginners</id><content type="html" xml:base="https://blakebyer.github.io//blog/2025/06/17/neurobeginners.html"><![CDATA[<h2 id="what-is-your-brain">What is your brain?</h2>
 <p>The brain is a 3-pound organ about the size of two balled up fists sitting within your skull (cranium). It is the gatekeeper to your conscious experience of reality, the source of your intellect, and the lifeforce of your bodily functions.</p>
 
 <figure>
