@@ -5,111 +5,111 @@
  -->
 <!-- Title: flowchart Pages: 1 -->
 <svg width="749pt" height="188pt"
- viewBox="0.00 0.00 749.00 188.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ viewBox="0.00 0.00 748.50 188.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 184)">
 <title>flowchart</title>
-<polygon fill="white" stroke="transparent" points="-4,4 -4,-184 745,-184 745,4 -4,4"/>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-184 744.5,-184 744.5,4 -4,4"/>
 <!-- A -->
 <g id="node1" class="node">
 <title>A</title>
-<polygon fill="#d2e3f3" stroke="#d2e3f3" points="373.5,-180 297.5,-180 297.5,-144 373.5,-144 373.5,-180"/>
-<text text-anchor="middle" x="335.5" y="-158.3" font-family="Helvetica,sans-Serif" font-size="14.00">CNS Cell</text>
+<polygon fill="#d2e3f3" stroke="#d2e3f3" points="310,-180 234,-180 234,-144 310,-144 310,-180"/>
+<text text-anchor="middle" x="272" y="-158.3" font-family="Helvetica,sans-Serif" font-size="14.00">CNS Cell</text>
 </g>
 <!-- B -->
 <g id="node2" class="node">
 <title>B</title>
-<polygon fill="#d2e3f3" stroke="#d2e3f3" points="314,-108 247,-108 247,-72 314,-72 314,-108"/>
-<text text-anchor="middle" x="280.5" y="-86.3" font-family="Helvetica,sans-Serif" font-size="14.00">Neuron</text>
+<polygon fill="#d2e3f3" stroke="#d2e3f3" points="228,-108 174,-108 174,-72 228,-72 228,-108"/>
+<text text-anchor="middle" x="201" y="-86.3" font-family="Helvetica,sans-Serif" font-size="14.00">Glia</text>
 </g>
 <!-- A&#45;&gt;B -->
 <g id="edge1" class="edge">
 <title>A&#45;&gt;B</title>
-<path fill="none" stroke="black" d="M305.75,-143.83C305.75,-143.83 305.75,-118.41 305.75,-118.41"/>
-<polygon fill="black" stroke="black" points="309.25,-118.41 305.75,-108.41 302.25,-118.41 309.25,-118.41"/>
+<path fill="none" stroke="black" d="M233.59,-162C216.86,-162 201,-162 201,-162 201,-162 201,-118.17 201,-118.17"/>
+<polygon fill="black" stroke="black" points="204.5,-118.17 201,-108.17 197.5,-118.17 204.5,-118.17"/>
 </g>
 <!-- C -->
 <g id="node3" class="node">
 <title>C</title>
-<polygon fill="#d2e3f3" stroke="#d2e3f3" points="530.5,-108 476.5,-108 476.5,-72 530.5,-72 530.5,-108"/>
-<text text-anchor="middle" x="503.5" y="-86.3" font-family="Helvetica,sans-Serif" font-size="14.00">Glia</text>
+<polygon fill="#d2e3f3" stroke="#d2e3f3" points="502.5,-108 435.5,-108 435.5,-72 502.5,-72 502.5,-108"/>
+<text text-anchor="middle" x="469" y="-86.3" font-family="Helvetica,sans-Serif" font-size="14.00">Neuron</text>
 </g>
 <!-- A&#45;&gt;C -->
 <g id="edge2" class="edge">
 <title>A&#45;&gt;C</title>
-<path fill="none" stroke="black" d="M373.62,-162C423.19,-162 503.5,-162 503.5,-162 503.5,-162 503.5,-118.17 503.5,-118.17"/>
-<polygon fill="black" stroke="black" points="507,-118.17 503.5,-108.17 500,-118.17 507,-118.17"/>
+<path fill="none" stroke="black" d="M310.45,-162C367.78,-162 469,-162 469,-162 469,-162 469,-118.17 469,-118.17"/>
+<polygon fill="black" stroke="black" points="472.5,-118.17 469,-108.17 465.5,-118.17 472.5,-118.17"/>
 </g>
 <!-- D -->
 <g id="node4" class="node">
 <title>D</title>
-<polygon fill="#d2e3f3" stroke="#d2e3f3" points="139,-36 0,-36 0,0 139,0 139,-36"/>
-<text text-anchor="middle" x="69.5" y="-14.3" font-family="Helvetica,sans-Serif" font-size="14.00">Pyramidal neuron</text>
+<polygon fill="#d2e3f3" stroke="#d2e3f3" points="82,-36 0,-36 0,0 82,0 82,-36"/>
+<text text-anchor="middle" x="41" y="-14.3" font-family="Helvetica,sans-Serif" font-size="14.00">Astrocyte</text>
 </g>
 <!-- B&#45;&gt;D -->
 <g id="edge3" class="edge">
 <title>B&#45;&gt;D</title>
-<path fill="none" stroke="black" d="M246.6,-90C186.95,-90 69.5,-90 69.5,-90 69.5,-90 69.5,-46.17 69.5,-46.17"/>
-<polygon fill="black" stroke="black" points="73,-46.17 69.5,-36.17 66,-46.17 73,-46.17"/>
+<path fill="none" stroke="black" d="M173.86,-90C128.21,-90 41,-90 41,-90 41,-90 41,-46.17 41,-46.17"/>
+<polygon fill="black" stroke="black" points="44.5,-46.17 41,-36.17 37.5,-46.17 44.5,-46.17"/>
 </g>
 <!-- E -->
 <g id="node5" class="node">
 <title>E</title>
-<polygon fill="#d2e3f3" stroke="#d2e3f3" points="276,-36 157,-36 157,0 276,0 276,-36"/>
-<text text-anchor="middle" x="216.5" y="-14.3" font-family="Helvetica,sans-Serif" font-size="14.00">Bipolar neuron</text>
+<polygon fill="#d2e3f3" stroke="#d2e3f3" points="178,-36 100,-36 100,0 178,0 178,-36"/>
+<text text-anchor="middle" x="139" y="-14.3" font-family="Helvetica,sans-Serif" font-size="14.00">Microglia</text>
 </g>
 <!-- B&#45;&gt;E -->
 <g id="edge4" class="edge">
 <title>B&#45;&gt;E</title>
-<path fill="none" stroke="black" d="M261.5,-71.83C261.5,-71.83 261.5,-46.41 261.5,-46.41"/>
-<polygon fill="black" stroke="black" points="265,-46.41 261.5,-36.41 258,-46.41 265,-46.41"/>
+<path fill="none" stroke="black" d="M187.25,-71.83C187.25,-50.5 187.25,-18 187.25,-18 187.25,-18 186.37,-18 186.37,-18"/>
+<polygon fill="black" stroke="black" points="188.4,-14.5 178.4,-18 188.4,-21.5 188.4,-14.5"/>
 </g>
 <!-- F -->
 <g id="node6" class="node">
 <title>F</title>
-<polygon fill="#d2e3f3" stroke="#d2e3f3" points="395,-36 294,-36 294,0 395,0 395,-36"/>
-<text text-anchor="middle" x="344.5" y="-14.3" font-family="Helvetica,sans-Serif" font-size="14.00">Purkinje cell</text>
+<polygon fill="#d2e3f3" stroke="#d2e3f3" points="327.5,-36 196.5,-36 196.5,0 327.5,0 327.5,-36"/>
+<text text-anchor="middle" x="262" y="-14.3" font-family="Helvetica,sans-Serif" font-size="14.00">Oligodendrocyte</text>
 </g>
 <!-- B&#45;&gt;F -->
 <g id="edge5" class="edge">
 <title>B&#45;&gt;F</title>
-<path fill="none" stroke="black" d="M304,-71.83C304,-71.83 304,-46.41 304,-46.41"/>
-<polygon fill="black" stroke="black" points="307.5,-46.41 304,-36.41 300.5,-46.41 307.5,-46.41"/>
+<path fill="none" stroke="black" d="M212.25,-71.83C212.25,-71.83 212.25,-46.41 212.25,-46.41"/>
+<polygon fill="black" stroke="black" points="215.75,-46.41 212.25,-36.41 208.75,-46.41 215.75,-46.41"/>
 </g>
 <!-- G -->
 <g id="node7" class="node">
 <title>G</title>
-<polygon fill="#d2e3f3" stroke="#d2e3f3" points="495.5,-36 413.5,-36 413.5,0 495.5,0 495.5,-36"/>
-<text text-anchor="middle" x="454.5" y="-14.3" font-family="Helvetica,sans-Serif" font-size="14.00">Astrocyte</text>
+<polygon fill="#d2e3f3" stroke="#d2e3f3" points="464.5,-36 345.5,-36 345.5,0 464.5,0 464.5,-36"/>
+<text text-anchor="middle" x="405" y="-14.3" font-family="Helvetica,sans-Serif" font-size="14.00">Bipolar neuron</text>
 </g>
 <!-- C&#45;&gt;G -->
 <g id="edge6" class="edge">
 <title>C&#45;&gt;G</title>
-<path fill="none" stroke="black" d="M486,-71.83C486,-71.83 486,-46.41 486,-46.41"/>
-<polygon fill="black" stroke="black" points="489.5,-46.41 486,-36.41 482.5,-46.41 489.5,-46.41"/>
+<path fill="none" stroke="black" d="M450,-71.83C450,-71.83 450,-46.41 450,-46.41"/>
+<polygon fill="black" stroke="black" points="453.5,-46.41 450,-36.41 446.5,-46.41 453.5,-46.41"/>
 </g>
 <!-- H -->
 <g id="node8" class="node">
 <title>H</title>
-<polygon fill="#d2e3f3" stroke="#d2e3f3" points="591.5,-36 513.5,-36 513.5,0 591.5,0 591.5,-36"/>
-<text text-anchor="middle" x="552.5" y="-14.3" font-family="Helvetica,sans-Serif" font-size="14.00">Microglia</text>
+<polygon fill="#d2e3f3" stroke="#d2e3f3" points="583.5,-36 482.5,-36 482.5,0 583.5,0 583.5,-36"/>
+<text text-anchor="middle" x="533" y="-14.3" font-family="Helvetica,sans-Serif" font-size="14.00">Purkinje cell</text>
 </g>
 <!-- C&#45;&gt;H -->
 <g id="edge7" class="edge">
 <title>C&#45;&gt;H</title>
-<path fill="none" stroke="black" d="M522,-71.83C522,-71.83 522,-46.41 522,-46.41"/>
-<polygon fill="black" stroke="black" points="525.5,-46.41 522,-36.41 518.5,-46.41 525.5,-46.41"/>
+<path fill="none" stroke="black" d="M492.5,-71.83C492.5,-71.83 492.5,-46.41 492.5,-46.41"/>
+<polygon fill="black" stroke="black" points="496,-46.41 492.5,-36.41 489,-46.41 496,-46.41"/>
 </g>
 <!-- I -->
 <g id="node9" class="node">
 <title>I</title>
-<polygon fill="#d2e3f3" stroke="#d2e3f3" points="741,-36 610,-36 610,0 741,0 741,-36"/>
-<text text-anchor="middle" x="675.5" y="-14.3" font-family="Helvetica,sans-Serif" font-size="14.00">Oligodendrocyte</text>
+<polygon fill="#d2e3f3" stroke="#d2e3f3" points="740.5,-36 601.5,-36 601.5,0 740.5,0 740.5,-36"/>
+<text text-anchor="middle" x="671" y="-14.3" font-family="Helvetica,sans-Serif" font-size="14.00">Pyramidal neuron</text>
 </g>
 <!-- C&#45;&gt;I -->
 <g id="edge8" class="edge">
 <title>C&#45;&gt;I</title>
-<path fill="none" stroke="black" d="M530.75,-90C579.25,-90 675.5,-90 675.5,-90 675.5,-90 675.5,-46.17 675.5,-46.17"/>
-<polygon fill="black" stroke="black" points="679,-46.17 675.5,-36.17 672,-46.17 679,-46.17"/>
+<path fill="none" stroke="black" d="M502.81,-90C560.31,-90 671,-90 671,-90 671,-90 671,-46.17 671,-46.17"/>
+<polygon fill="black" stroke="black" points="674.5,-46.17 671,-36.17 667.5,-46.17 674.5,-46.17"/>
 </g>
 </g>
 </svg>
