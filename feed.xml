@@ -1,4 +1,97 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://blakebyer.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://blakebyer.github.io//" rel="alternate" type="text/html" /><updated>2025-06-18T05:03:56+00:00</updated><id>https://blakebyer.github.io//feed.xml</id><title type="html">Blake Byer</title><subtitle>This is the personal webpage of Blake Byer.</subtitle><author><name>Blake Byer</name><email>bbyer04@gmail.com</email><uri>https://blakebyer.github.io</uri></author><entry><title type="html">Neuroscience for Beginners</title><link href="https://blakebyer.github.io//blog/2025/06/17/neurobeginners.html" rel="alternate" type="text/html" title="Neuroscience for Beginners" /><published>2025-06-17T00:00:00+00:00</published><updated>2025-06-17T00:00:00+00:00</updated><id>https://blakebyer.github.io//blog/2025/06/17/neurobeginners</id><content type="html" xml:base="https://blakebyer.github.io//blog/2025/06/17/neurobeginners.html"><![CDATA[<h2 id="what-is-your-brain">What is your brain?</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://blakebyer.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://blakebyer.github.io//" rel="alternate" type="text/html" /><updated>2025-06-19T04:13:59+00:00</updated><id>https://blakebyer.github.io//feed.xml</id><title type="html">Blake Byer</title><subtitle>This is the personal webpage of Blake Byer.</subtitle><author><name>Blake Byer</name><email>bbyer04@gmail.com</email><uri>https://blakebyer.github.io</uri></author><entry><title type="html">Cells of the Nervous System</title><link href="https://blakebyer.github.io//blog/2025/06/18/neurocells.html" rel="alternate" type="text/html" title="Cells of the Nervous System" /><published>2025-06-18T00:00:00+00:00</published><updated>2025-06-18T00:00:00+00:00</updated><id>https://blakebyer.github.io//blog/2025/06/18/neurocells</id><content type="html" xml:base="https://blakebyer.github.io//blog/2025/06/18/neurocells.html"><![CDATA[<h2 id="levels-of-organization-of-multicellular-organisms">Levels of Organization of Multicellular Organisms</h2>
+<p>In order from smallest to largest, an organism is composed of:</p>
+<ol>
+  <li>Organelles: cellular components built for specific functions (e.g. endoplasmic reticulum).</li>
+  <li>Cells: basic subunit of biology (e.g. nerve cell).</li>
+  <li>Tissue: a group of similar cells that perform a specific function (e.g. smooth muscle).</li>
+  <li>Organ: many tissue types forming a contiguous body to perform a more complex function (e.g. heart, lungs, or brain).</li>
+  <li>Organ System: a collection of organs that work together to perform a major bodily function (e.g. digestive system).</li>
+</ol>
+
+<figure>
+    <img src="/assets/images/Organization_levels_mouse.jpg" alt="Levels of organization mouse" />
+    <figcaption><em>
+    Organization levels from cell until organism by LadyofHats at English Wikipedia, Public Domain.
+    </em></figcaption>
+</figure>
+
+<h2 id="cells">Cells</h2>
+<p>A cell is a basic subunit of tissue within organisms. Cells work together to orchestrate all bodily functions.</p>
+
+<figure>
+    <img src="/assets/images/Animal_cell_structure_en.jpg" alt="Typical animal cell" />
+    <figcaption><em>
+    Structure of a typical animal cell by LadyofHats at English Wikipedia, Public Domain.
+    </em></figcaption>
+</figure>
+
+<p>A typical animal cell is surrounded by a cell (plasma) membrane and has many different organelles. Cells are adapted for their unique function. For instance, red blood cells (RBCs) lack a nucleus and all other organelles such that they can be filled with hemoglobin, a protein that carries molecular oxygen (O<sub>2</sub>) to the tissues.</p>
+
+<h2 id="nerve-cells">Nerve Cells</h2>
+<p>Nerve cells, commonly known as neurons, are the excitable cells of the nervous system. Excitable means that stimulus from neurotransmitters or ions causes the neuron to depolarize and transmit a signal (a potential). Before going into neuronal communication (covered in a future post), let’s cover the general structure of a neuron.</p>
+
+<figure>
+    <img src="/assets/images/Neuron.jpg" alt="Neuron anatomy" />
+    <figcaption><em>
+    Diagram of a neuron by U.S. National Cancer Institute at English Wikipedia, CC BY-SA 3.0.
+    </em><figcaption>
+&lt;/figure&gt;
+
+A neuron has eight main parts:
+1. Soma: the cell body, encapsulated by a cell membrane which protects the cell
+2. Nucleus: the control center
+3. Dendrite(s): projections that receive signals from other neurons
+4. Axon: the projection that sends signals to other neurons
+5. Axon hillock: the site of initiation of an action potential (we'll cover this later)
+6. Myelin sheath: fatty covering that increases the speed of the signal 
+7. Node of Ranvier: gaps in the myelin sheath that allow diffusion of ions
+8. Axon terminals: branches that form junctions with other cells 
+
+### Synapse ###
+Perhaps the most important feature of neuron-neuron interaction is the synapse. The synapse is the gap between an outgoing axon terminal and an incoming dendrite. It is the site of information exchange in the form of ions or neurotransmitters (or both), and is the functional site of neuroplasticity.
+
+<figure>
+    <img src="/assets/images/Chemical_synapse_schema_cropped.jpg" alt="Chemical synapse" />
+    <figcaption><em>
+    Drawing illustrating the process of synaptic transmission in neurons by Illustrator Christy Krames for NIH-NIA at English Wikipedia, Public Domain.
+    </em></figcaption>
+</figure>
+
+Synapses have fascinated neuroscientists since the field's emergence in the late 19th century. Two pioneers—Santiago Ramón y Cajal, a Spanish neuroanatomist, and Camillo Golgi, an Italian pathologist—transformed neuroscience by developing methods to stain neural tissue, making microscopic study of neurons and their connections possible.
+
+As neuroscientist Kelsey C. Martin noted in 2016:
+
+&gt; With a remarkable amount of prescience, Ramon y Cajal also speculated that memories were stored as increases in the numbers of connections between neurons. This idea forms the basis of learning-related synaptic plasticity—the idea that memories are stored as changes in the number and strength of synapses between neurons—a framework that has endured as a model for understanding the biology of memory.
+
+The synapse is a remarkable site for information integration in the brain traditionally viewed as a connection between adjacent neurons. However, recent research has uncovered that non-neuronal support cells—glia—also play a crucial role in regulating synaptic function, as explored in the following section.
+
+## Cellular Taxonomy of the Central Nervous System ##
+
+A basic taxonomy of cells within the central nervous system may look like the following:
+
+![Cell Taxonomy](/assets/figs/neurocell_taxonomy.svg)
+
+There are many types of cells within the central nervous system (CNS) but the main distinction is between neuronal cells and support cells referred to as glia. Neuronal cells are unique because they transmit electrical signals. Glia serve a multitude of roles, including neurotransmitter production and metabolism, synaptic plasticity, structural support, and the formation of myelin. 
+
+In this taxonomy, the neuronal cells are separated according to morphology (shape). Neurons may also be classified by the neurotransmitter they secrete, such as acetylcholine (cholinergic) or dopamine (dopaminergic). These distinctions are not mutually exclusive, meaning a cell could be bipolar and glutamatergic, for instance. Here is a brief description of each type of neuron in diagram:
+
+* Bipolar neuron has one dendrite and one axon extending from the soma
+* Purkinje cells are found in the cerebellar cortex and have massive dendritic trees
+* Pyramidal neurons are found in the cerebral cortex and have a pyramid-shaped soma, with the dendrite directed superficially
+
+There are fewer types of glial cells than neurons, but additional types are discovered constantly. The glial cells in this table are:
+
+* Astrocytes are star-shaped glial cells responsible for neurotransmitter synthesis, release, and reuptake. They also help form the blood-brain barrier
+* Microglia are the innate immune cells of the CNS that phagocytose cellular debris
+* Oligodendrocytes wrap and myelinate neurons, improving their conduction velocity
+
+## Conclusion ##
+Our understanding of biology happens at many different scales. At the molecular level, proteins and nucleic acids are in the nanometer (nm) range, while cells—the building blocks of life—range from 1-100 micrometers (µm). As cells assemble into tissues, tissues combine into organs, and organs work in systems, each level is a microcosm of the next. A blue whale may be over a billion times larger than a single protein, yet both are products of the same organizing principles.
+
+In the nervous system, this organization becomes especially complex. With approximately 100 billion neurons and over 100 trillion synaptic connections, the brain operates with specialized networks which are moderated by glia. Understanding how all these parts fit together, by using a <em>systems approach</em>, can help us solve neuropsychiatric disease.
+
+In the next post, we will cover the molecular and psychological basis of memory. Stay curious!
+</figcaption></figcaption></figure>]]></content><author><name>Blake Byer</name><email>bbyer04@gmail.com</email><uri>https://blakebyer.github.io</uri></author><category term="blog" /><summary type="html"><![CDATA[A primer on cells in the nervous system]]></summary></entry><entry><title type="html">Neuroscience for Beginners</title><link href="https://blakebyer.github.io//blog/2025/06/17/neurobeginners.html" rel="alternate" type="text/html" title="Neuroscience for Beginners" /><published>2025-06-17T00:00:00+00:00</published><updated>2025-06-17T00:00:00+00:00</updated><id>https://blakebyer.github.io//blog/2025/06/17/neurobeginners</id><content type="html" xml:base="https://blakebyer.github.io//blog/2025/06/17/neurobeginners.html"><![CDATA[<h2 id="what-is-your-brain">What is your brain?</h2>
 <p>The brain is a 3-pound organ about the size of two balled up fists sitting within your skull (cranium). It is the gatekeeper to your conscious experience of reality, the source of your intellect, and the lifeforce of your bodily functions.</p>
 
 <figure>
@@ -89,40 +182,7 @@ When referring to the brain:</p>
 
 <p>Knowing ourselves means knowing our brains.</p>
 
-<p>Please stay tuned for the next post on types of cells within the nervous system.</p>]]></content><author><name>Blake Byer</name><email>bbyer04@gmail.com</email><uri>https://blakebyer.github.io</uri></author><category term="blog" /><summary type="html"><![CDATA[A gentle introduction to neuroscience]]></summary></entry><entry><title type="html">Cells of the Nervous System</title><link href="https://blakebyer.github.io//blog/2025/06/17/neurocells.html" rel="alternate" type="text/html" title="Cells of the Nervous System" /><published>2025-06-17T00:00:00+00:00</published><updated>2025-06-17T00:00:00+00:00</updated><id>https://blakebyer.github.io//blog/2025/06/17/neurocells</id><content type="html" xml:base="https://blakebyer.github.io//blog/2025/06/17/neurocells.html"><![CDATA[<h2 id="levels-of-organization-of-multicellular-organisms">Levels of Organization of Multicellular Organisms</h2>
-<p>In order from smallest to largest, the body is composed of:</p>
-<ol>
-  <li>Organelles: cellular components built for specific functions (e.g. endoplasmic reticulum).</li>
-  <li>Cells: basic subunit of biology (e.g. nerve cell).</li>
-  <li>Tissue: a group of similar cells that perform a specific function (e.g. smooth muscle).</li>
-  <li>Organ: many tissue types forming a contiguous body to perform a more complex function (e.g. heart, lungs, or brain).</li>
-  <li>Organ System: a collection of organs that work together to perform a major bodily function (e.g. digestive system).</li>
-</ol>
-
-<figure>
-    <img src="/assets/images/Organization_levels_mouse.jpg" alt="Levels of organization mouse" />
-    <figcaption><em>
-    Organization levels from cell until organism by LadyofHats at English Wikipedia, Public Domain.
-    </em></figcaption>
-</figure>
-
-<h2 id="cells">Cells</h2>
-<p>A cell is a basic subunit of tissue within organisms.</p>
-
-<figure>
-    <img src="/assets/images/Animal_cell_structure_en.jpg" alt="Typical animal cell" />
-    <figcaption><em>
-    Structure of a typical animal cell by LadyofHats at English Wikipedia, Public Domain.
-    </em></figcaption>
-</figure>
-
-<p>A typical animal cell is surrounded by a cell (plasma) membrane and has many different organelles. Cells are adapted for their unique function. For instance, red blood cells (RBCs) lack a nucleus and all other organelles such that they can be filled with hemoglobin, a protein that carries molecular oxygen (O<sub>2</sub>) to the tissues.</p>
-
-<h2 id="cellular-taxonomy-of-the-nervous-system">Cellular Taxonomy of the Nervous System</h2>
-
-<p>A basic taxonomy of cells within the nervous system may look like the following:</p>
-
-<p><img src="/assets/figs/neurocell_taxonomy.svg" alt="Cell Taxonomy" /></p>]]></content><author><name>Blake Byer</name><email>bbyer04@gmail.com</email><uri>https://blakebyer.github.io</uri></author><category term="blog" /><summary type="html"><![CDATA[An overview of cells in the nervous system.]]></summary></entry><entry><title type="html">GLBIO 2025</title><link href="https://blakebyer.github.io//blog/2025/05/15/glbio25.html" rel="alternate" type="text/html" title="GLBIO 2025" /><published>2025-05-15T00:00:00+00:00</published><updated>2025-05-15T00:00:00+00:00</updated><id>https://blakebyer.github.io//blog/2025/05/15/glbio25</id><content type="html" xml:base="https://blakebyer.github.io//blog/2025/05/15/glbio25.html"><![CDATA[<p>I spent last week in Minneapolis, Minnesota at the International Society for Computational Biology Great Lakes Bioinformatics Conference, aptly named
+<p>Please stay tuned for the next post on types of cells within the nervous system.</p>]]></content><author><name>Blake Byer</name><email>bbyer04@gmail.com</email><uri>https://blakebyer.github.io</uri></author><category term="blog" /><summary type="html"><![CDATA[A gentle introduction to neuroscience]]></summary></entry><entry><title type="html">GLBIO 2025</title><link href="https://blakebyer.github.io//blog/2025/05/15/glbio25.html" rel="alternate" type="text/html" title="GLBIO 2025" /><published>2025-05-15T00:00:00+00:00</published><updated>2025-05-15T00:00:00+00:00</updated><id>https://blakebyer.github.io//blog/2025/05/15/glbio25</id><content type="html" xml:base="https://blakebyer.github.io//blog/2025/05/15/glbio25.html"><![CDATA[<p>I spent last week in Minneapolis, Minnesota at the International Society for Computational Biology Great Lakes Bioinformatics Conference, aptly named
 GLBIO 2025. I presented a poster on Alzheimer’s disease drug repurposing using multi-ontology enrichment analysis, with an a priori gene set derived 
 from AD GWAS. Using this method I prioritized approximately 100 FDA-approved repurposable drugs and I discovered that 7 out of 89 (8%) FDA-approved drugs interacting
 with AD risk genes are used to treat AD, suggesting ample repurposing opportunities!</p>
