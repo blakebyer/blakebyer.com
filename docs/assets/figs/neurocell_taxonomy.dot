@@ -13,7 +13,7 @@ digraph flowchart {
   F [label = "Purkinje cell"]
   G [label = "Astrocyte"];
   H [label = "Microglia"];
-  I [label = "Oligodendrocyte"]
+  I [label = "Oligodendrocyte"];
 
   A -> B;
   A -> C;
