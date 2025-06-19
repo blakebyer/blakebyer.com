@@ -19,7 +19,6 @@ description: >-
   This is the personal webpage of Blake Byer.
 baseurl: "" 
 url: "https://blakebyer.github.io/"
-twitter_username: na
 github_username: blakebyer
 
 # Use remote Cayman theme from GitHub Pages
