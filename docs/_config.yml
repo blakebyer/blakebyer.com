@@ -64,7 +64,16 @@ author:
   bio: "Systems neuroscience researcher"
   location: "USA"
   email: "bbyer04@gmail.com"
-  uri: "https://blakebyer.github.io"
+  links:
+  - label: "GitHub"
+    icon: "fab fa-fw fa-github"
+    url: "https://github.com/blakebyer"
+  - label: "LinkedIn"
+    icon: "fab fa-fw fa-linkedin"
+    url: "https://linkedin.com/in/blake-byer"
+  - label: "Instagram"
+    icon: "fab fa-fw fa-instagram"
+    url: "https://instagram.com/memreneuro"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
