@@ -1,0 +1,41 @@
+---
+layout: default
+title: MONDO Tree Viewer
+permalink: /projects/mondo_tree/
+---
+
+<h2>MONDO Tree Viewer</h2>
+
+<div id="term-tree" style="height: 400px; width: 500px; border: 1px solid black;"></div>
+
+<!-- jQuery (must come first) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<!-- jsTree (must come after jQuery) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.2.1/jstree.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.2.1/themes/default/style.min.css" />
+
+<!-- OLS Tree plugin (must come after jsTree) -->
+<script src="{{ '/assets/js/ols-treeview/ols-treeview.js' | relative_url }}"></script>
+
+<!-- Initialization logic -->
+<script>
+  $(document).ready(function () {
+    if (typeof olsTreeview === 'undefined') {
+      console.error('olsTreeview is not defined. Check that ols-treeview.min.js loaded successfully.');
+      return;
+    }
+
+    var app = new olsTreeview();
+
+    app.draw(
+      $("#term-tree"),
+      false,
+      "mondo",
+      "terms",
+      "https://purl.obolibrary.org/obo/MONDO_0000001",
+      "https://www.ebi.ac.uk/ols",
+      {}
+    );
+  });
+</script>

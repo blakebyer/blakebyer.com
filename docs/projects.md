@@ -4,4 +4,6 @@ title: "Projects"
 permalink: /projects/
 ---
 
-Herein lie my projects!
+Here are some of my recent projects:
+
+- [MONDO Tree Viewer](/projects/mondo_tree/)
