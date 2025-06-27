@@ -10,7 +10,7 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Projects - Blake Byer</title>
+<!-- begin _includes/seo.html --><title>MONDO Tree Viewer - Blake Byer</title>
 <meta name="description" content="This is the personal webpage of Blake Byer.">
 
 
@@ -21,8 +21,8 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Blake Byer">
-<meta property="og:title" content="Projects">
-<meta property="og:url" content="https://blakebyer.github.io//projects/">
+<meta property="og:title" content="MONDO Tree Viewer">
+<meta property="og:url" content="https://blakebyer.github.io//projects/mondo_tree/">
 
 
   <meta property="og:description" content="This is the personal webpage of Blake Byer.">
@@ -38,7 +38,7 @@
 
 
 
-<link rel="canonical" href="https://blakebyer.github.io//projects/">
+<link rel="canonical" href="https://blakebyer.github.io//projects/mondo_tree/">
 
 
 
@@ -78,7 +78,7 @@
 
   </head>
 
-  <body class="layout--single" dir="ltr">
+  <body class="layout--default" dir="ltr">
     <nav class="skip-links">
   <ul>
     <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
@@ -141,67 +141,41 @@
 
 
     <div class="initial-content">
-      
+      <h2>MONDO Tree Viewer</h2>
 
+<div id="term-tree" style="height: 400px; width: 500px; border: 1px solid black;"></div>
 
+<!-- jQuery (must come first) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
+<!-- jsTree (must come after jQuery) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.2.1/jstree.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jstree/3.2.1/themes/default/style.min.css" />
 
+<!-- OLS Tree plugin (must come after jsTree) -->
+<script src="/assets/js/ols-treeview/ols-treeview.js"></script>
 
-<div id="main" role="main">
-  
+<!-- Initialization logic -->
+<script>
+  $(document).ready(function () {
+    if (typeof olsTreeview === 'undefined') {
+      console.error('olsTreeview is not defined. Check that ols-treeview.min.js loaded successfully.');
+      return;
+    }
 
+    var app = new olsTreeview();
 
-  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Projects">
-    
-    
-    
-
-    <div class="page__inner-wrap">
-      
-        <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">
-            <a href="https://blakebyer.github.io//projects/" itemprop="url">Projects
-</a>
-          </h1>
-          
-
-
-        </header>
-      
-
-      <section class="page__content" itemprop="text">
-        
-        <p>Here are some of my recent projects:</p>
-
-<ul>
-  <li><a href="/projects/mondo_tree/">MONDO Tree Viewer</a></li>
-</ul>
-
-        
-      </section>
-
-      <footer class="page__meta">
-        
-        
-
-
-        
-
-      </footer>
-
-      
-
-      
-
-    </div>
-
-    
-  </article>
-
-  
-  
-</div>
+    app.draw(
+      $("#term-tree"),
+      false,
+      "mondo",
+      "terms",
+      "https://purl.obolibrary.org/obo/MONDO_0000001",
+      "https://www.ebi.ac.uk/ols",
+      {}
+    );
+  });
+</script>
 
       
     </div>
