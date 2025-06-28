@@ -56,7 +56,8 @@ defaults:
 
 search: true
 enable_copy_code_button: true
-
+include:
+  - assets
 author:
   name: "Blake Byer"
   avatar: "/assets/images/profile3.jpg"   # path to your image
