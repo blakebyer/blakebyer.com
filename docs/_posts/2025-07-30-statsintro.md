@@ -11,6 +11,21 @@ math: true
 Statistics are the backbone of impactful, reproducible research. Properly done, statistics provide us with basis for cause and effect (known as causal inference). I wanted to write a few supplementary articles for myself and others to understand the basics of probability, statistics, and linear algebra to boost their research.
 
 ## Introduction ##
+The simple arithmetic mean $$\bar{x}$$ of a set is 
+$$
+\frac{1}{n}\sum_{i=1}^{n}x_i
+$$
+
+The geometric mean is the $$n$$th root of the product of the elements in a set.
+$$
+(\prod_{i=1}^{n}x_i)^{\frac{1}{n}} = \sqrt[n]{x_1, x_2, ..., x_n}
+$$
+
+Finally, a harmonic mean is the number of values $$n$$ over the sum of the values' reciprocals.
+$$
+H = \frac{n}{1/x_1 + 1/x_2 + ... + 1/x_n} = \frac{n}{\sum_{i=1}^{n}1/x_i}
+$$
+
 Standard deviation $$\sigma$$ is a measure of the amount of variation of the values of a variable about its mean.
 $$
 \sigma = \sqrt{\frac{1}{N}\sum_{i=1}^{N}(x_i - \bar{x})^2}
