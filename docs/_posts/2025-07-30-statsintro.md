@@ -13,9 +13,10 @@ Statistics are the backbone of impactful, reproducible research. Properly done, 
 ## Introduction ##
 Let's start with a normal (Gaussian) distribution, also known as a bell curve.
 
-A normal distribution in a variate $X$ with mean $\mu$ and variance $\sigma^2$ is a statistic with probability density function
-{% raw %}
+A normal distribution in a variate $$X$$ with mean $$\mu$$ and variance $$\sigma^2$$ is a statistic with probability density function
+
 \[P(x) = \frac{1}{\sigma\sqrt{2\pi}}\e^{\frac{-(x-\mu)^2}{2\sigma^2}}/]
 on the domain
 \[x\in(-\infty, \infty)/]
-{% endraw %}
+
+Let's break it down. 
