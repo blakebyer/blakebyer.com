@@ -1,6 +1,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/wordcloud2.js/1.1.1/wordcloud2.js"></script>
 
-<div style="text-align:center;">
+<!-- Use a flex container to center the canvas -->
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
   <canvas id="my_cloud" width="960" height="500"></canvas>
 </div>
 
@@ -18,13 +19,13 @@ WordCloud(document.getElementById('my_cloud'), {
     ['entrepeneurship', 40],
     ['public health', 60]
   ],
-  gridSize: 4,            // smaller = denser words
+  gridSize: 4,
   backgroundColor: 'white',
   color: 'random-dark',
   rotateRatio: 0.3,
   shuffle: true,
   shape: 'circle',
-  drawOutOfBound: true,
+  drawOutOfBound: false,
   shrinkToFit: true
 });
 </script>
