@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://blakebyer.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://blakebyer.github.io//" rel="alternate" type="text/html" /><updated>2025-07-30T23:36:20+00:00</updated><id>https://blakebyer.github.io//feed.xml</id><title type="html">Blake Byer</title><subtitle>This is the personal webpage of Blake Byer.</subtitle><author><name>Blake Byer</name><email>bbyer04@gmail.com</email></author><entry><title type="html">Math Symbols Cheat Sheet</title><link href="https://blakebyer.github.io//blog/2025/07/30/mathnotation.html" rel="alternate" type="text/html" title="Math Symbols Cheat Sheet" /><published>2025-07-30T00:00:00+00:00</published><updated>2025-07-30T00:00:00+00:00</updated><id>https://blakebyer.github.io//blog/2025/07/30/mathnotation</id><content type="html" xml:base="https://blakebyer.github.io//blog/2025/07/30/mathnotation.html"><![CDATA[<h1 id="math-notation-cheat-sheet">Math Notation Cheat Sheet</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://blakebyer.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://blakebyer.github.io//" rel="alternate" type="text/html" /><updated>2025-07-30T23:37:05+00:00</updated><id>https://blakebyer.github.io//feed.xml</id><title type="html">Blake Byer</title><subtitle>This is the personal webpage of Blake Byer.</subtitle><author><name>Blake Byer</name><email>bbyer04@gmail.com</email></author><entry><title type="html">Math Symbols Cheat Sheet</title><link href="https://blakebyer.github.io//blog/2025/07/30/mathnotation.html" rel="alternate" type="text/html" title="Math Symbols Cheat Sheet" /><published>2025-07-30T00:00:00+00:00</published><updated>2025-07-30T00:00:00+00:00</updated><id>https://blakebyer.github.io//blog/2025/07/30/mathnotation</id><content type="html" xml:base="https://blakebyer.github.io//blog/2025/07/30/mathnotation.html"><![CDATA[<h1 id="math-notation-cheat-sheet">Math Notation Cheat Sheet</h1>
 
 <h2 id="arithmetic">Arithmetic</h2>
 
@@ -550,7 +550,7 @@ if values \(i\) through \(N\) represent the entire population. If values are sel
 <p><b>Variance</b> is quantifies the spread of data around a sample mean and is just \(\sigma^2\). A higher variance means greater spread.</p>
 
 <h2 id="sampling-methods">Sampling Methods</h2>
-<p>In a <b>simple random sample</b>, every member of the population has an equal chance of being selected \(\frac{1}{N}\).</p>
+<p>In a <b>simple random sample</b>, every member of the population has an equal chance of being selected is \(\frac{1}{N}\).</p>
 
 <h2 id="normal-distribution">Normal Distribution</h2>
 <p>Let’s start with a normal (Gaussian) distribution, also known as a bell curve.</p>
