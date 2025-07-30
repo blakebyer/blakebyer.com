@@ -13,11 +13,11 @@ Statistics are the backbone of impactful, reproducible research. Properly done, 
 ## Introduction ##
 Standard deviation $$\sigma$$ is a measure of the amount of variation of the values of a variable about its mean.
 $$
-\sigma = \sqrt{\frac{1}{N}\sum{N}{i=1}(x_i - \bar{x})^2}
+\sigma = \sqrt{\frac{1}{N}\sum_{i=1}^{N}(x_i - \bar{x})^2}
 $$
 if values $$i$$ through $$N$$ represent the entire population. If values are selected at random, a correction is applied (Bessel's correction), such that
 $$
-\sigma = \sqrt{\frac{1}{N - 1}\sum{N}{i=1}(x_i - \bar{x})^2}
+\sigma = \sqrt{\frac{1}{N - 1}\sum_{i=1}^{N}(x_i - \bar{x})^2}
 $$
 
 Variance is quantifies the spread of data around a sample mean and is just $$\sigma^2$$. A higher variance means greater spread.
