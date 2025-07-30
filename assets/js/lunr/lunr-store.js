@@ -29,6 +29,12 @@ var store = [{
         "url": "/blog/2025/06/18/neurocells.html",
         "teaser": null
       },{
+        "title": "Math Symbols Cheat Sheet",
+        "excerpt":"Math Notation Cheat Sheet Arithmetic Operation Notation Meaning Addition \\(a + b\\) Add a and b Subtraction \\(a - b\\) Subtract b from a Multiplication \\(a \\times b\\) or \\(ab\\) or \\(a \\cdot b\\) Multiply a and b Division \\(\\frac{a}{b}\\) or \\(a \\div b\\) Divide a by b Remainder \\(a...","categories": ["blog"],
+        "tags": [],
+        "url": "/blog/2025/07/30/mathnotation.html",
+        "teaser": null
+      },{
         "title": "Introduction to Statistics for Biologists",
         "excerpt":"Why learn statistics? Statistics are the backbone of impactful, reproducible research. Properly done, statistics provide us with basis for cause and effect (known as causal inference). I wanted to write a few supplementary articles for myself and others to understand the basics of probability, statistics, and linear algebra to boost...","categories": ["blog"],
         "tags": [],

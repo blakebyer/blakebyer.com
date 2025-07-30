@@ -1,4 +1,535 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://blakebyer.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://blakebyer.github.io//" rel="alternate" type="text/html" /><updated>2025-07-30T23:21:10+00:00</updated><id>https://blakebyer.github.io//feed.xml</id><title type="html">Blake Byer</title><subtitle>This is the personal webpage of Blake Byer.</subtitle><author><name>Blake Byer</name><email>bbyer04@gmail.com</email></author><entry><title type="html">Introduction to Statistics for Biologists</title><link href="https://blakebyer.github.io//blog/2025/07/30/statsintro.html" rel="alternate" type="text/html" title="Introduction to Statistics for Biologists" /><published>2025-07-30T00:00:00+00:00</published><updated>2025-07-30T00:00:00+00:00</updated><id>https://blakebyer.github.io//blog/2025/07/30/statsintro</id><content type="html" xml:base="https://blakebyer.github.io//blog/2025/07/30/statsintro.html"><![CDATA[<h2 id="why-learn-statistics">Why learn statistics?</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://blakebyer.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://blakebyer.github.io//" rel="alternate" type="text/html" /><updated>2025-07-30T23:36:20+00:00</updated><id>https://blakebyer.github.io//feed.xml</id><title type="html">Blake Byer</title><subtitle>This is the personal webpage of Blake Byer.</subtitle><author><name>Blake Byer</name><email>bbyer04@gmail.com</email></author><entry><title type="html">Math Symbols Cheat Sheet</title><link href="https://blakebyer.github.io//blog/2025/07/30/mathnotation.html" rel="alternate" type="text/html" title="Math Symbols Cheat Sheet" /><published>2025-07-30T00:00:00+00:00</published><updated>2025-07-30T00:00:00+00:00</updated><id>https://blakebyer.github.io//blog/2025/07/30/mathnotation</id><content type="html" xml:base="https://blakebyer.github.io//blog/2025/07/30/mathnotation.html"><![CDATA[<h1 id="math-notation-cheat-sheet">Math Notation Cheat Sheet</h1>
+
+<h2 id="arithmetic">Arithmetic</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Operation</th>
+      <th>Notation</th>
+      <th>Meaning</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Addition</td>
+      <td>\(a + b\)</td>
+      <td>Add a and b</td>
+    </tr>
+    <tr>
+      <td>Subtraction</td>
+      <td>\(a - b\)</td>
+      <td>Subtract b from a</td>
+    </tr>
+    <tr>
+      <td>Multiplication</td>
+      <td>\(a \times b\) or \(ab\) or \(a \cdot b\)</td>
+      <td>Multiply a and b</td>
+    </tr>
+    <tr>
+      <td>Division</td>
+      <td>\(\frac{a}{b}\) or \(a \div b\)</td>
+      <td>Divide a by b</td>
+    </tr>
+    <tr>
+      <td>Remainder</td>
+      <td>\(a \bmod b\)</td>
+      <td>Remainder when a ÷ b</td>
+    </tr>
+    <tr>
+      <td>Negative</td>
+      <td>\(-a\)</td>
+      <td>Negative a</td>
+    </tr>
+    <tr>
+      <td>Square</td>
+      <td>\(a^2\)</td>
+      <td>a squared</td>
+    </tr>
+    <tr>
+      <td>Cube</td>
+      <td>\(a^3\)</td>
+      <td>a cubed</td>
+    </tr>
+    <tr>
+      <td>To power</td>
+      <td>\(a^b\)</td>
+      <td>a to the power of b</td>
+    </tr>
+    <tr>
+      <td>Square root</td>
+      <td>\(\sqrt{a}\)</td>
+      <td>Square root of a</td>
+    </tr>
+    <tr>
+      <td>Cube root</td>
+      <td>\(\sqrt[3]{a}\)</td>
+      <td>Cube root of a</td>
+    </tr>
+    <tr>
+      <td>nth root</td>
+      <td>\(\sqrt[n]{a}\)</td>
+      <td>nth root of a</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="equality-symbols">Equality Symbols</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Notation</th>
+      <th>Meaning</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>\(3 + 1 = 2 + 2\)</td>
+      <td>Equals</td>
+    </tr>
+    <tr>
+      <td>\(3 \ne 4\)</td>
+      <td>Not equal</td>
+    </tr>
+    <tr>
+      <td>\(a \equiv b\)</td>
+      <td>Identical</td>
+    </tr>
+    <tr>
+      <td>\(a \propto b\)</td>
+      <td>Proportional to</td>
+    </tr>
+    <tr>
+      <td>\(\sin(0.01) \approx 0.01\)</td>
+      <td>Approximately equal</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="algebra-symbols">Algebra Symbols</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Notation</th>
+      <th>Meaning</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>\(5! = 5 \times 4 \times 3 \times 2 \times 1\)</td>
+      <td>Factorial</td>
+    </tr>
+    <tr>
+      <td>\(f(x) = x^2\)</td>
+      <td>Function of x</td>
+    </tr>
+    <tr>
+      <td>\(a - b\)</td>
+      <td>Difference</td>
+    </tr>
+    <tr>
+      <td>\(\sum_{i=1}^{n} x_i\)</td>
+      <td>Sum</td>
+    </tr>
+    <tr>
+      <td>\(\prod_{i=1}^{n} x_i\)</td>
+      <td>Product</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="probability-and-statistics">Probability and Statistics</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Notation</th>
+      <th>Meaning</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>\(P(A)\)</td>
+      <td>Probability of A</td>
+    </tr>
+    <tr>
+      <td>\(P(A \cap B)\)</td>
+      <td>A and B (intersection)</td>
+    </tr>
+    <tr>
+      <td>\(P(A \cup B)\)</td>
+      <td>A or B (union)</td>
+    </tr>
+    <tr>
+      <td>\(P(A \mid B)\)</td>
+      <td>Conditional probability</td>
+    </tr>
+    <tr>
+      <td>\(\mu\)</td>
+      <td>Mean (population)</td>
+    </tr>
+    <tr>
+      <td>\(\bar{x}\)</td>
+      <td>Mean (sample)</td>
+    </tr>
+    <tr>
+      <td>\(\sigma\)</td>
+      <td>Standard deviation</td>
+    </tr>
+    <tr>
+      <td>\(\sigma^2\)</td>
+      <td>Variance</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="comparison">Comparison</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Notation</th>
+      <th>Meaning</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>\(a &lt; b\)</td>
+      <td>Less than</td>
+    </tr>
+    <tr>
+      <td>\(a &gt; b\)</td>
+      <td>Greater than</td>
+    </tr>
+    <tr>
+      <td>\(a \le b\)</td>
+      <td>Less than or equal</td>
+    </tr>
+    <tr>
+      <td>\(a \ge b\)</td>
+      <td>Greater than or equal</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="angles">Angles</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Notation</th>
+      <th>Meaning</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>\(\pi = 3.14159\ldots\)</td>
+      <td>Pi</td>
+    </tr>
+    <tr>
+      <td>\(360^\circ = 2\pi\)</td>
+      <td>Degrees to radians</td>
+    </tr>
+    <tr>
+      <td>\(\angle\), \(\sin\), \(\cos\), \(\tan\)</td>
+      <td>Trigonometric functions</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="brackets">Brackets</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Notation</th>
+      <th>Interpretation</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>\(y = [(2x-1)(x+3)]^2\)</td>
+      <td>Parentheses → Brackets → Powers</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="linear-algebra">Linear Algebra</h2>
+
+<h3 id="vectors">Vectors</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Notation</th>
+      <th>Meaning</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>\(\vec{v} = \langle 1, 2, 3 \rangle\)</td>
+      <td>Vector</td>
+    </tr>
+    <tr>
+      <td>\(\vec{v} \cdot \vec{w}\)</td>
+      <td>Dot product</td>
+    </tr>
+    <tr>
+      <td>\(\vec{v} \times \vec{w}\)</td>
+      <td>Cross product</td>
+    </tr>
+    <tr>
+      <td>\(|\vec{v}|\)</td>
+      <td>Norm / magnitude of vector</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="matrices">Matrices</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Notation</th>
+      <th>Meaning</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>\(A = \begin{bmatrix}1 &amp; 2 \\ 3 &amp; 4\end{bmatrix}\)</td>
+      <td>2x2 matrix</td>
+    </tr>
+    <tr>
+      <td>\(AB\)</td>
+      <td>Matrix multiplication</td>
+    </tr>
+    <tr>
+      <td>\(A^T\)</td>
+      <td>Transpose</td>
+    </tr>
+    <tr>
+      <td>\(A^{-1}\)</td>
+      <td>Inverse matrix</td>
+    </tr>
+    <tr>
+      <td>\(\det(A)\)</td>
+      <td>Determinant</td>
+    </tr>
+    <tr>
+      <td>\(|A|\)</td>
+      <td>Matrix norm</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="greek-alphabet">Greek Alphabet</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Uppercase</th>
+      <th>Lowercase</th>
+      <th>Name</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>\(A\)</td>
+      <td>\(\alpha\)</td>
+      <td>Alpha</td>
+    </tr>
+    <tr>
+      <td>\(B\)</td>
+      <td>\(\beta\)</td>
+      <td>Beta</td>
+    </tr>
+    <tr>
+      <td>\(\Gamma\)</td>
+      <td>\(\gamma\)</td>
+      <td>Gamma</td>
+    </tr>
+    <tr>
+      <td>\(\Delta\)</td>
+      <td>\(\delta\)</td>
+      <td>Delta</td>
+    </tr>
+    <tr>
+      <td>\(\Epsilon\)</td>
+      <td>\(\epsilon\)</td>
+      <td>Epsilon</td>
+    </tr>
+    <tr>
+      <td>\(\Zeta\)</td>
+      <td>\(\zeta\)</td>
+      <td>Zeta</td>
+    </tr>
+    <tr>
+      <td>\(\Theta\)</td>
+      <td>\(\theta\)</td>
+      <td>Theta</td>
+    </tr>
+    <tr>
+      <td>\(\Lambda\)</td>
+      <td>\(\lambda\)</td>
+      <td>Lambda</td>
+    </tr>
+    <tr>
+      <td>\(\Xi\)</td>
+      <td>\(\xi\)</td>
+      <td>Xi</td>
+    </tr>
+    <tr>
+      <td>\(\Pi\)</td>
+      <td>\(\pi\)</td>
+      <td>Pi</td>
+    </tr>
+    <tr>
+      <td>\(\Sigma\)</td>
+      <td>\(\sigma\)</td>
+      <td>Sigma</td>
+    </tr>
+    <tr>
+      <td>\(\Phi\)</td>
+      <td>\(\phi\)</td>
+      <td>Phi</td>
+    </tr>
+    <tr>
+      <td>\(\Psi\)</td>
+      <td>\(\psi\)</td>
+      <td>Psi</td>
+    </tr>
+    <tr>
+      <td>\(\Omega\)</td>
+      <td>\(\omega\)</td>
+      <td>Omega</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="calculus">Calculus</h2>
+
+<h3 id="integration">Integration</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Notation</th>
+      <th>Meaning</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>\(y = \int x^2 \, dx\)</td>
+      <td>Indefinite integral</td>
+    </tr>
+    <tr>
+      <td>\(A = \int_a^b f(x) \, dx\)</td>
+      <td>Area under the curve from a to b</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="differentiation">Differentiation</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Notation</th>
+      <th>Meaning</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>\(\frac{dy}{dx}\)</td>
+      <td>Derivative of y with respect to x</td>
+    </tr>
+    <tr>
+      <td>\(\frac{d^2y}{dx^2}\)</td>
+      <td>Second derivative</td>
+    </tr>
+    <tr>
+      <td>\(\frac{\partial y}{\partial z}\)</td>
+      <td>Partial derivative with respect to z</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="complex-numbers">Complex Numbers</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Notation</th>
+      <th>Meaning</th>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>\(z = 3 + 2i\)</td>
+      <td>Complex number</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>\(i^2 = -1\)</td>
+      <td>Imaginary unit</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>\(\text{Re}(z)\)</td>
+      <td>Real part of z</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>\(\text{Im}(z)\)</td>
+      <td>Imaginary part of z</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>$$</td>
+      <td>z</td>
+      <td>= \sqrt{a^2 + b^2} $$</td>
+      <td>Modulus of complex number</td>
+    </tr>
+    <tr>
+      <td>\(\bar{z} = a - bi\)</td>
+      <td>Complex conjugate</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<p><em>By Dominic Walliman (2018)</em></p>]]></content><author><name>Blake Byer</name><email>bbyer04@gmail.com</email></author><category term="blog" /><summary type="html"><![CDATA[A math symbols cheat sheet]]></summary></entry><entry><title type="html">Introduction to Statistics for Biologists</title><link href="https://blakebyer.github.io//blog/2025/07/30/statsintro.html" rel="alternate" type="text/html" title="Introduction to Statistics for Biologists" /><published>2025-07-30T00:00:00+00:00</published><updated>2025-07-30T00:00:00+00:00</updated><id>https://blakebyer.github.io//blog/2025/07/30/statsintro</id><content type="html" xml:base="https://blakebyer.github.io//blog/2025/07/30/statsintro.html"><![CDATA[<h2 id="why-learn-statistics">Why learn statistics?</h2>
 <p>Statistics are the backbone of impactful, reproducible research. Properly done, statistics provide us with basis for cause and effect (known as causal inference). I wanted to write a few supplementary articles for myself and others to understand the basics of probability, statistics, and linear algebra to boost their research.</p>
 
 <h2 id="introduction">Introduction</h2>
@@ -24,6 +555,12 @@ if values \(i\) through \(N\) represent the entire population. If values are sel
 <h2 id="normal-distribution">Normal Distribution</h2>
 <p>Let’s start with a normal (Gaussian) distribution, also known as a bell curve.</p>
 
+<figure>
+  <img src="/assets/images/Standard_deviation_diagram.png" alt="The normal distribution" />
+  <figcaption><em> Normal distribution curve that illustrates standard deviations. Each band has 1 standard deviation, and the labels indicate the approximate proportion of area. Illustration by M.W. Toews, CC BY 2.5 via Wikimedia Commons.
+  </em></figcaption>
+</figure>
+
 <p>A <b>normal distribution</b> in a variate \(X\) with mean \(\mu\) and variance \(\sigma^2\) is a statistic with probability density function</p>
 
 <p>\(P(x) = \frac{1}{\sigma\sqrt{2\pi}}e^{\frac{-(x-\mu)^2}{2\sigma^2}}\)
@@ -37,7 +574,7 @@ on the domain
 \(z = \frac{x - \mu}{\sigma}\)
 where \(\mu\) is the mean of the population, and \(\sigma\) is the standard deviation of the population.</p>
 
-<p>A Z-score can help us describe the normal distribution in quantiles. The empirical rule (68-95-99.7 rule) of the normal distribution states that approximately 68% of the data falls within 1 SD of the mean, 95% within 2 SD, and 99.7% within 3 SD of the mean.</p>]]></content><author><name>Blake Byer</name><email>bbyer04@gmail.com</email></author><category term="blog" /><summary type="html"><![CDATA[Let's add another tool to our toolbelt]]></summary></entry><entry><title type="html">Cells of the Nervous System</title><link href="https://blakebyer.github.io//blog/2025/06/18/neurocells.html" rel="alternate" type="text/html" title="Cells of the Nervous System" /><published>2025-06-18T00:00:00+00:00</published><updated>2025-06-18T00:00:00+00:00</updated><id>https://blakebyer.github.io//blog/2025/06/18/neurocells</id><content type="html" xml:base="https://blakebyer.github.io//blog/2025/06/18/neurocells.html"><![CDATA[<h2 id="levels-of-organization-in-multicellular-organisms">Levels of Organization in Multicellular Organisms</h2>
+<p>The Z-score can help us describe the normal distribution in quantiles. The empirical rule (68-95-99.7 rule) of the normal distribution states that approximately 68% of the data falls within 1 SD of the mean, 95% within 2 SD, and 99.7% within 3 SD of the mean.</p>]]></content><author><name>Blake Byer</name><email>bbyer04@gmail.com</email></author><category term="blog" /><summary type="html"><![CDATA[Let's add another tool to our toolbelt]]></summary></entry><entry><title type="html">Cells of the Nervous System</title><link href="https://blakebyer.github.io//blog/2025/06/18/neurocells.html" rel="alternate" type="text/html" title="Cells of the Nervous System" /><published>2025-06-18T00:00:00+00:00</published><updated>2025-06-18T00:00:00+00:00</updated><id>https://blakebyer.github.io//blog/2025/06/18/neurocells</id><content type="html" xml:base="https://blakebyer.github.io//blog/2025/06/18/neurocells.html"><![CDATA[<h2 id="levels-of-organization-in-multicellular-organisms">Levels of Organization in Multicellular Organisms</h2>
 <p>In order from smallest to largest, an organism is composed of:</p>
 <ol>
   <li>Organelles: cellular components built for specific functions (e.g. endoplasmic reticulum).</li>
