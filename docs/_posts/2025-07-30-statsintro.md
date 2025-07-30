@@ -38,7 +38,7 @@ $$
 <b>Variance</b> is quantifies the spread of data around a sample mean and is just $$\sigma^2$$. A higher variance means greater spread.
 
 ## Sampling Methods ##
-In a <b>simple random sample</b>, every member of the population has an equal chance of being selected $$\frac{1}{N}$$.
+In a <b>simple random sample</b>, every member of the population has an equal chance of being selected is $$\frac{1}{N}$$.
 
 ## Normal Distribution ##
 Let's start with a normal (Gaussian) distribution, also known as a bell curve.
