@@ -53,6 +53,7 @@ defaults:
       comments: false
       share: false
       related: true
+      head: head_custom.html
 
 search: true
 enable_copy_code_button: true
