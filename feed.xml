@@ -1,11 +1,20 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://blakebyer.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://blakebyer.github.io//" rel="alternate" type="text/html" /><updated>2025-07-30T22:41:59+00:00</updated><id>https://blakebyer.github.io//feed.xml</id><title type="html">Blake Byer</title><subtitle>This is the personal webpage of Blake Byer.</subtitle><author><name>Blake Byer</name><email>bbyer04@gmail.com</email></author><entry><title type="html">Introduction to Statistics for Biologists</title><link href="https://blakebyer.github.io//blog/2025/07/30/statsintro.html" rel="alternate" type="text/html" title="Introduction to Statistics for Biologists" /><published>2025-07-30T00:00:00+00:00</published><updated>2025-07-30T00:00:00+00:00</updated><id>https://blakebyer.github.io//blog/2025/07/30/statsintro</id><content type="html" xml:base="https://blakebyer.github.io//blog/2025/07/30/statsintro.html"><![CDATA[<h2 id="why-learn-statistics">Why learn statistics?</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://blakebyer.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://blakebyer.github.io//" rel="alternate" type="text/html" /><updated>2025-07-30T23:00:08+00:00</updated><id>https://blakebyer.github.io//feed.xml</id><title type="html">Blake Byer</title><subtitle>This is the personal webpage of Blake Byer.</subtitle><author><name>Blake Byer</name><email>bbyer04@gmail.com</email></author><entry><title type="html">Introduction to Statistics for Biologists</title><link href="https://blakebyer.github.io//blog/2025/07/30/statsintro.html" rel="alternate" type="text/html" title="Introduction to Statistics for Biologists" /><published>2025-07-30T00:00:00+00:00</published><updated>2025-07-30T00:00:00+00:00</updated><id>https://blakebyer.github.io//blog/2025/07/30/statsintro</id><content type="html" xml:base="https://blakebyer.github.io//blog/2025/07/30/statsintro.html"><![CDATA[<h2 id="why-learn-statistics">Why learn statistics?</h2>
 <p>Statistics are the backbone of impactful, reproducible research. Properly done, statistics provide us with basis for cause and effect (known as causal inference). I wanted to write a few supplementary articles for myself and others to understand the basics of probability, statistics, and linear algebra to boost their research.</p>
 
 <h2 id="introduction">Introduction</h2>
+<p>The simple arithmetic mean \(\bar{x}\) of a set is 
+\(\frac{1}{n}\sum_{i=1}^{n}x_i\)</p>
+
+<p>The geometric mean is the \(n\)th root of the product of the elements in a set.
+\((\prod_{i=1}^{n}x_i)^{\frac{1}{n}} = \sqrt[n]{x_1, x_2, ..., x_n}\)</p>
+
+<p>Finally, a harmonic mean is the number of values \(n\) over the sum of the values’ reciprocals.
+\(H = \frac{n}{1/x_1 + 1/x_2 + ... + 1/x_n} = \frac{n}{\sum_{i=1}^{n}1/x_i}\)</p>
+
 <p>Standard deviation \(\sigma\) is a measure of the amount of variation of the values of a variable about its mean.
-\(\sigma = \sqrt{\frac{1}{N}\sum{N}{i=1}(x_i - \bar{x})^2}\)
+\(\sigma = \sqrt{\frac{1}{N}\sum_{i=1}^{N}(x_i - \bar{x})^2}\)
 if values \(i\) through \(N\) represent the entire population. If values are selected at random, a correction is applied (Bessel’s correction), such that
-\(\sigma = \sqrt{\frac{1}{N - 1}\sum{N}{i=1}(x_i - \bar{x})^2}\)</p>
+\(\sigma = \sqrt{\frac{1}{N - 1}\sum_{i=1}^{N}(x_i - \bar{x})^2}\)</p>
 
 <p>Variance is quantifies the spread of data around a sample mean and is just \(\sigma^2\). A higher variance means greater spread.</p>
 
