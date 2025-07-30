@@ -11,22 +11,22 @@ math: true
 Statistics are the backbone of impactful, reproducible research. Properly done, statistics provide us with basis for cause and effect (known as causal inference). I wanted to write a few supplementary articles for myself and others to understand the basics of probability, statistics, and linear algebra to boost their research.
 
 ## Introduction ##
-The simple arithmetic mean $$\bar{x}$$ of a set is 
+The simple <b>arithmetic mean</b> $$\bar{x}$$ of a set is 
 $$
-\frac{1}{n}\sum_{i=1}^{n}x_i
-$$
-
-The geometric mean is the $$n$$th root of the product of the elements in a set.
-$$
-(\prod_{i=1}^{n}x_i)^{\frac{1}{n}} = \sqrt[n]{x_1, x_2, ..., x_n}
+M = \frac{1}{n}\sum_{i=1}^{n}x_i
 $$
 
-Finally, a harmonic mean is the number of values $$n$$ over the sum of the values' reciprocals.
+The <b>geometric mean</b> is the $$n$$th root of the product of the elements in a set.
 $$
-H = \frac{n}{1/x_1 + 1/x_2 + ... + 1/x_n} = \frac{n}{\sum_{i=1}^{n}1/x_i}
+G = (\prod_{i=1}^{n}x_i)^{\frac{1}{n}} = \sqrt[n]{x_1, x_2, ..., x_n}
 $$
 
-Standard deviation $$\sigma$$ is a measure of the amount of variation of the values of a variable about its mean.
+Finally, the <b>harmonic mean</b> is the number of values $$n$$ over the sum of the values' reciprocals.
+$$
+H = \frac{n}{\frac{1}{x_1} + \frac{1}{x_2} + ... + \frac{1}{x_n}} = \frac{n}{\sum_{i=1}^{n}\frac{1}{x_i}}
+$$
+
+<b>Standard deviation</b> $$\sigma$$, also abbreviated as SD, is a measure of the amount of variation of the values of a variable about its mean.
 $$
 \sigma = \sqrt{\frac{1}{N}\sum_{i=1}^{N}(x_i - \bar{x})^2}
 $$
@@ -35,12 +35,15 @@ $$
 \sigma = \sqrt{\frac{1}{N - 1}\sum_{i=1}^{N}(x_i - \bar{x})^2}
 $$
 
-Variance is quantifies the spread of data around a sample mean and is just $$\sigma^2$$. A higher variance means greater spread.
+<b>Variance</b> is quantifies the spread of data around a sample mean and is just $$\sigma^2$$. A higher variance means greater spread.
 
-## A Normal Distribution ##
+## Sampling Methods ##
+In a <b>simple random sample</b>, every member of the population has an equal chance of being selected $$\frac{1}{N}$$.
+
+## Normal Distribution ##
 Let's start with a normal (Gaussian) distribution, also known as a bell curve.
 
-A normal distribution in a variate $$X$$ with mean $$\mu$$ and variance $$\sigma^2$$ is a statistic with probability density function
+A <b>normal distribution</b> in a variate $$X$$ with mean $$\mu$$ and variance $$\sigma^2$$ is a statistic with probability density function
 
 $$
 P(x) = \frac{1}{\sigma\sqrt{2\pi}}e^{\frac{-(x-\mu)^2}{2\sigma^2}}
@@ -55,3 +58,10 @@ $$
 \frac{1}{1\sqrt{2\pi}}e^{\frac{-(0-0)^2}{2(1)^2}} = \frac{1}{1\sqrt{2\pi}}
 $$.
 
+A <b>Z-score</b> is quantified as the number of standard deviations a value falls away from the sample mean. To calculate a Z-score
+$$
+z = \frac{x - \mu}{\sigma}
+$$
+where $$\mu$$ is the mean of the population, and $$\sigma$$ is the standard deviation of the population.
+
+A Z-score can help us describe the normal distribution in quantiles. The empirical rule (68-95-99.7 rule) of the normal distribution states that approximately 68% of the data falls within 1 SD of the mean, 95% within 2 SD, and 99.7% within 3 SD of the mean.
