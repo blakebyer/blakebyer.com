@@ -43,6 +43,12 @@ In a <b>simple random sample</b>, every member of the population has an equal ch
 ## Normal Distribution ##
 Let's start with a normal (Gaussian) distribution, also known as a bell curve.
 
+<figure>
+  <img src="/assets/images/Standard_deviation_diagram.png" alt="The normal distribution">
+  <figcaption><em> Normal distribution curve that illustrates standard deviations. Each band has 1 standard deviation, and the labels indicate the approximate proportion of area. Illustration by M.W. Toews, CC BY 2.5 via Wikimedia Commons.
+  </em></figcaption>
+</figure>
+
 A <b>normal distribution</b> in a variate $$X$$ with mean $$\mu$$ and variance $$\sigma^2$$ is a statistic with probability density function
 
 $$
@@ -64,4 +70,4 @@ z = \frac{x - \mu}{\sigma}
 $$
 where $$\mu$$ is the mean of the population, and $$\sigma$$ is the standard deviation of the population.
 
-A Z-score can help us describe the normal distribution in quantiles. The empirical rule (68-95-99.7 rule) of the normal distribution states that approximately 68% of the data falls within 1 SD of the mean, 95% within 2 SD, and 99.7% within 3 SD of the mean.
+The Z-score can help us describe the normal distribution in quantiles. The empirical rule (68-95-99.7 rule) of the normal distribution states that approximately 68% of the data falls within 1 SD of the mean, 95% within 2 SD, and 99.7% within 3 SD of the mean.
