@@ -9,7 +9,7 @@ math: true
 ## The Birthday Paradox ##
 Consider the question, how many people must be a room such that the probability of at least two will share a birthday exceeds 50%?
 
-You might guess about 182 because it's half the days in a year, or 100 because it's a nice round number. However, the answer might surprise you. 
+You might guess about 182 because it's about half the days in a year, or 100 because it's a nice round number. However, the answer might surprise you. 
 
 The correct answer is just 23 people. How can this be true?! The answer lies in probability theory. Let the event A be that of a group of k people not having any repeated birthdays, and let B be that of a group of k people having at least two who share a birthday, i.e. $$P(B) = 1 - P(A)$$.
 
