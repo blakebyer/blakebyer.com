@@ -29,8 +29,8 @@ var store = [{
         "url": "/blog/2025/06/18/neurocells.html",
         "teaser": null
       },{
-        "title": "Math Symbols Cheat Sheet",
-        "excerpt":"Math Notation Cheat Sheet Arithmetic Operation Notation Meaning Addition \\(a + b\\) Add a and b Subtraction \\(a - b\\) Subtract b from a Multiplication \\(a \\times b\\) or \\(ab\\) or \\(a \\cdot b\\) Multiply a and b Division \\(\\frac{a}{b}\\) or \\(a \\div b\\) Divide a by b Remainder \\(a...","categories": ["blog"],
+        "title": "Math Notation Sheet",
+        "excerpt":"Arithmetic Operation Notation Meaning Addition \\(a + b\\) Add a and b Subtraction \\(a - b\\) Subtract b from a Multiplication \\(a \\times b\\) or \\(ab\\) or \\(a \\cdot b\\) Multiply a and b Division \\(\\frac{a}{b}\\) or \\(a \\div b\\) Divide a by b Remainder \\(a \\bmod b\\) Remainder when...","categories": ["blog"],
         "tags": [],
         "url": "/blog/2025/07/30/mathnotation.html",
         "teaser": null
