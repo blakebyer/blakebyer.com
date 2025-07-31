@@ -3,7 +3,7 @@ title: Introduction to Statistics
 date: 2025-07-30
 layout: single
 categories: [blog]
-excerpt: ""
+excerpt: "Let's add another tool to our toolbelt"
 math: true
 ---
 ## Introduction ##
