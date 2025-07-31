@@ -20,7 +20,7 @@ Statistics is the backbone of impactful, reproducible research. Properly done, s
 The simple <b>arithmetic mean</b> $$\bar{x}$$ of a set is 
 $$
 M = \frac{1}{n}\sum_{i=1}^{n}x_i
-$$
+$$.
 
 The <b>geometric mean</b> is the $$n$$th root of the product of the elements in a set.
 $$
@@ -38,8 +38,8 @@ $$
 $$
 if values $$i$$ through $$N$$ represent the entire population. If values are selected at random, a correction is applied (Bessel's correction), such that
 $$
-\sigma = \sqrt{\frac{1}{N - 1}\sum_{i=1}^{N}(x_i - \bar{x})^2}.
-$$
+\sigma = \sqrt{\frac{1}{N - 1}\sum_{i=1}^{N}(x_i - \bar{x})^2}
+$$.
 
 <b>Variance</b> is quantifies the spread of data around a sample mean and is just $$\sigma^2$$. A higher variance means greater spread.
 
@@ -93,4 +93,4 @@ The Z-score can help us describe the normal distribution in quantiles. The empir
 ## Looking Ahead ##
 I hope these formulas help you understand how summary statistics are calculated, such as the arithmetic mean, standard deviation, or variance. 
 
-Stay tuned for next time, where we will cover the basics of probability! Future posts will cover hypothesis testing, linear models, and dimensionality reduction. Stay curious!
+Stay tuned for next time, where we will cover the basics of probability. Future posts will cover hypothesis testing, linear models, and dimensionality reduction. Stay curious!
