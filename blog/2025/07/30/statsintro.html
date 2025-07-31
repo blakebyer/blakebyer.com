@@ -10,8 +10,8 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Introduction to Statistics for Biologists - Blake Byer</title>
-<meta name="description" content="Let’s add another tool to our toolbelt">
+<!-- begin _includes/seo.html --><title>Introduction to Statistics - Blake Byer</title>
+<meta name="description" content="This is the personal webpage of Blake Byer.">
 
 
   <meta name="author" content="Blake Byer">
@@ -23,11 +23,11 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Blake Byer">
-<meta property="og:title" content="Introduction to Statistics for Biologists">
+<meta property="og:title" content="Introduction to Statistics">
 <meta property="og:url" content="https://blakebyer.github.io//blog/2025/07/30/statsintro.html">
 
 
-  <meta property="og:description" content="Let’s add another tool to our toolbelt">
+  <meta property="og:description" content="This is the personal webpage of Blake Byer.">
 
 
 
@@ -162,8 +162,8 @@
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Introduction to Statistics for Biologists">
-    <meta itemprop="description" content="Let’s add another tool to our toolbelt">
+    <meta itemprop="headline" content="Introduction to Statistics">
+    <meta itemprop="description" content="">
     <meta itemprop="datePublished" content="2025-07-30T00:00:00+00:00">
     
 
@@ -171,7 +171,7 @@
       
         <header>
           <h1 id="page-title" class="page__title" itemprop="headline">
-            <a href="https://blakebyer.github.io//blog/2025/07/30/statsintro.html" itemprop="url">Introduction to Statistics for Biologists
+            <a href="https://blakebyer.github.io//blog/2025/07/30/statsintro.html" itemprop="url">Introduction to Statistics
 </a>
           </h1>
           
@@ -195,7 +195,7 @@
       <span class="page__meta-readtime">
         <i class="far fa-clock" aria-hidden="true"></i>
         
-          3 minute read
+          4 minute read
         
       </span>
     
@@ -207,7 +207,7 @@
 
       <section class="page__content" itemprop="text">
         
-        <h2 id="why-learn-statistics">Why learn statistics?</h2>
+        <h2 id="introduction">Introduction</h2>
 <p>Statistics is the backbone of impactful, reproducible research. Properly done, statistics provide us with basis for cause and effect (known as causal inference). I wanted to write a few supplementary articles for myself and others to understand the basics of probability, statistics, and linear algebra to boost their research. If you get stuck on the notation, please check the <a href="/blog/2025/07/30/mathnotation.html">Math Notation Sheet</a>. First, an inspiring image from our friends in biostatistics, a sub-field of statistics devoted to creating and applying statistical methods to biological data.</p>
 
 <figure>
@@ -216,25 +216,48 @@
   </em></figcaption>
 </figure>
 
-<h2 id="introduction">Introduction</h2>
-<p>The simple <b>arithmetic mean</b> \(\bar{x}\) of a set is 
-\(M = \frac{1}{n}\sum_{i=1}^{n}x_i\).</p>
+<!--
+The simple <b>arithmetic mean</b> $$\bar{x}$$ of a set is 
+$$
+M = \frac{1}{n}\sum_{i=1}^{n}x_i
+$$.
 
-<p>The <b>geometric mean</b> is the \(n\)th root of the product of the elements in a set.
-\(G = (\prod_{i=1}^{n}x_i)^{\frac{1}{n}} = \sqrt[n]{x_1, x_2, ..., x_n}\)</p>
+The <b>geometric mean</b> is the $$n$$th root of the product of the elements in a set.
+$$
+G = (\prod_{i=1}^{n}x_i)^{\frac{1}{n}} = \sqrt[n]{x_1, x_2, ..., x_n}
+$$
 
-<p>Finally, the <b>harmonic mean</b> is the number of values \(n\) over the sum of the values’ reciprocals.
-\(H = \frac{n}{\frac{1}{x_1} + \frac{1}{x_2} + ... + \frac{1}{x_n}} = \frac{n}{\sum_{i=1}^{n}\frac{1}{x_i}}\)</p>
+Finally, the <b>harmonic mean</b> is the number of values $$n$$ over the sum of the values' reciprocals.
+$$
+H = \frac{n}{\frac{1}{x_1} + \frac{1}{x_2} + ... + \frac{1}{x_n}} = \frac{n}{\sum_{i=1}^{n}\frac{1}{x_i}}
+$$
+-->
+<h3 id="boxplots-and-tukeys-fence">Boxplots and Tukey’s fence</h3>
+<p>A boxplot, also known as a box-and-whisker plot, is a way to represent numerical data with a visual estimation of the data’s locality (center of the data), spread (from the median), and skewness (asymmetry of the data). It is composed of a box spread across the interquartile range (Q3-Q1), a vertical line at the median (\(\tilde{x}\)), and whiskers capped by fences located at the minimum and maximum of the dataset.</p>
 
-<p><b>Standard deviation</b> \(\sigma\), also abbreviated as SD, is a measure of the amount of variation of the values of a variable about its mean.
-\(\sigma = \sqrt{\frac{1}{N}\sum_{i=1}^{N}(x_i - \bar{x})^2}\)
-if values \(i\) through \(N\) represent the entire population. If values are selected at random, a correction is applied (Bessel’s correction), such that
-\(\sigma = \sqrt{\frac{1}{N - 1}\sum_{i=1}^{N}(x_i - \bar{x})^2}\).</p>
+<figure>
+  <img src="/assets/images/Labeled_Box_and_Whisker_Plot.png" alt="Box and whisker plot" />
+  <figcaption><em> A labeled box and whisker plot. Note that this distribution is skewed left. Illustration by KStrileckis, CC0 via Wikimedia Commons.
+  </em></figcaption>
+</figure>
 
-<p><b>Variance</b> is quantifies the spread of data around a sample mean and is just \(\sigma^2\). A higher variance means greater spread.</p>
+<p>A common heuristic for an outlier are Tukey’s fences, which is defined as \([Q1-k\times IQR, Q3+k\times IQR]\) where \(IQR = Q3-Q1\) and \(k = 1.5\). Another variation of the boxplot is a notched boxplot, which is especially useful when comparing distributions between categories. The notch’s position is often set by \(\tilde{x}\pm \frac{1.58\times IQR}{\sqrt{n}}\).</p>
+
+<p>The design of the boxplot lends itself to easy calculation of summary statistics. The five used by Tukey are discussed below. While the boxplot offers a visual representation of locality, skewness, and spread, here is the mathematical basis of each.</p>
+
+<ol>
+  <li>Locality: mean, median, and mode.</li>
+  <li>Skewness:
+\(\tilde{\mu_3} = \frac{\sum_{i}^{N}(X_i - \bar{X})^3}{(N-1)\times\sigma^3}\)
+where \(N\) = number of variables in the distribution
+\(X_i\) = random variable
+\(\bar{X}\) = mean of the distribution
+\(\sigma\) = standard deviation</li>
+  <li>Spread: range (max - min), IQR, standard deviation, variance</li>
+</ol>
 
 <h3 id="summary-statistics">Summary Statistics</h3>
-<p>The Tukey Five-Number Summary (after the mathematician John Wilder Tukey) of a data set consists of the:</p>
+<p>The Tukey Five-Number Summary (after the mathematician John Tukey) of a data set consists of the:</p>
 <ol>
   <li>Minimum (Min)</li>
   <li>Quartile I (Q1): 25% of the data are less than or equal to this value</li>
@@ -242,6 +265,13 @@ if values \(i\) through \(N\) represent the entire population. If values are sel
   <li>Quartile 3 (Q3): 75% of the data are less than or equal to this value</li>
   <li>Maximum (Max)</li>
 </ol>
+
+<p><b>Standard deviation</b> \(\sigma\), also abbreviated as SD, is a measure of the amount of variation of the values of a variable about its mean.
+\(\sigma = \sqrt{\frac{1}{N}\sum_{i=1}^{N}(x_i - \bar{x})^2}\)
+if values \(i\) through \(N\) represent the entire population. If values are selected at random, a correction is applied (Bessel’s correction), such that
+\(\sigma = \sqrt{\frac{1}{N - 1}\sum_{i=1}^{N}(x_i - \bar{x})^2}\).</p>
+
+<p><b>Variance</b> is quantifies the spread of data around a sample mean and is just \(\sigma^2\). A higher variance means greater spread.</p>
 
 <h2 id="sampling-methods">Sampling Methods</h2>
 <p>In a <b>simple random sample</b>, every member of the population has an equal chance of being selected is \(\frac{1}{N}\).</p>
@@ -265,7 +295,7 @@ if values \(i\) through \(N\) represent the entire population. If values are sel
 on the domain
 \(x\in(-\infty, \infty)\).</p>
 
-<p>To illustrate, assume the mean \(\mu = 0\) and the variance \(\sigma^2 = 1\). \(\sigma\) alone is the standard deviation (the square root of the variance). Therefore, when \(x = 0\), \(P(x)\) has an absolute maximum at
+<p>To illustrate, assume the mean \(\mu = 0\) and the variance \(\sigma^2 = 1\). \(\sigma\) alone is the standard deviation (the square root of the variance). Therefore, when \(x = 0\), \(P(x)\) is
 \(\frac{1}{1\sqrt{2\pi}}e^{\frac{-(0-0)^2}{2(1)^2}} = \frac{1}{1\sqrt{2\pi}}\).</p>
 
 <p>A <b>Z-score</b> is quantified as the number of standard deviations a value falls away from the sample mean. To calculate a Z-score
@@ -275,7 +305,7 @@ where \(\mu\) is the mean of the population, and \(\sigma\) is the standard devi
 <p>The Z-score can help us describe the normal distribution in quantiles. The empirical rule (68-95-99.7 rule) of the normal distribution states that approximately 68% of the data falls within 1 SD of the mean, 95% within 2 SD, and 99.7% within 3 SD of the mean.</p>
 
 <h2 id="looking-ahead">Looking Ahead</h2>
-<p>I hope these formulas help you understand how summary statistics are calculated, such as the arithmetic mean, standard deviation, or variance.</p>
+<p>I hope these formulas help you understand how summary statistics are calculated, such as the skewness, standard deviation, or variance.</p>
 
 <p>Stay tuned for next time, where we will cover the basics of probability. Future posts will cover hypothesis testing, linear models, and dimensionality reduction. Stay curious!</p>
 
@@ -301,7 +331,7 @@ where \(\mu\) is the mean of the population, and \(\sigma\) is the standard devi
       <a href="/blog/2025/07/30/mathnotation.html" class="pagination--pager" title="Math Notation Sheet">Previous</a>
     
     
-      <a href="#" class="pagination--pager disabled">Next</a>
+      <a href="/blog/2025/07/31/probabilityintro.html" class="pagination--pager" title="Introduction to Probability">Next</a>
     
   </nav>
 
@@ -318,6 +348,54 @@ where \(\mu\) is the mean of the population, and \(\sigma\) is the standard devi
   
   <h2 class="page__related-title">You May Also Enjoy</h2>
   <div class="grid__wrapper">
+    
+      
+      
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/blog/2025/07/31/probabilityintro.html" rel="permalink">Introduction to Probability
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2025-07-31T00:00:00+00:00">July 31, 2025</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          1 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">Basics of probability
+</p>
+  </article>
+</div>
+
     
       
       
@@ -354,7 +432,7 @@ where \(\mu\) is the mean of the population, and \(\sigma\) is the standard devi
       <span class="page__meta-readtime">
         <i class="far fa-fw fa-clock" aria-hidden="true"></i>
         
-          2 minute read
+          1 minute read
         
       </span>
     
@@ -458,54 +536,6 @@ where \(\mu\) is the mean of the population, and \(\sigma\) is the standard devi
 
 
     <p class="archive__item-excerpt" itemprop="description">A gentle introduction to neuroscience
-</p>
-  </article>
-</div>
-
-    
-      
-      
-
-
-
-<div class="grid__item">
-  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-    
-    <h2 class="archive__item-title no_toc" itemprop="headline">
-      
-        <a href="/blog/2025/05/15/glbio25.html" rel="permalink">GLBIO 2025
-</a>
-      
-    </h2>
-    
-
-  <p class="page__meta">
-    
-      
-      <span class="page__meta-date">
-        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
-        
-        <time datetime="2025-05-15T00:00:00+00:00">May 15, 2025</time>
-      </span>
-    
-
-    <span class="page__meta-sep"></span>
-
-    
-      
-      
-
-      <span class="page__meta-readtime">
-        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
-        
-          1 minute read
-        
-      </span>
-    
-  </p>
-
-
-    <p class="archive__item-excerpt" itemprop="description">Maybe the real treasure was the friends we made along the way
 </p>
   </article>
 </div>

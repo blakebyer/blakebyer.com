@@ -1,80 +1,30 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://blakebyer.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://blakebyer.github.io//" rel="alternate" type="text/html" /><updated>2025-07-31T00:18:19+00:00</updated><id>https://blakebyer.github.io//feed.xml</id><title type="html">Blake Byer</title><subtitle>This is the personal webpage of Blake Byer.</subtitle><author><name>Blake Byer</name><email>bbyer04@gmail.com</email></author><entry><title type="html">Math Notation Sheet</title><link href="https://blakebyer.github.io//blog/2025/07/30/mathnotation.html" rel="alternate" type="text/html" title="Math Notation Sheet" /><published>2025-07-30T00:00:00+00:00</published><updated>2025-07-30T00:00:00+00:00</updated><id>https://blakebyer.github.io//blog/2025/07/30/mathnotation</id><content type="html" xml:base="https://blakebyer.github.io//blog/2025/07/30/mathnotation.html"><![CDATA[<h2 id="arithmetic">Arithmetic</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://blakebyer.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://blakebyer.github.io//" rel="alternate" type="text/html" /><updated>2025-07-31T05:58:58+00:00</updated><id>https://blakebyer.github.io//feed.xml</id><title type="html">Blake Byer</title><subtitle>This is the personal webpage of Blake Byer.</subtitle><author><name>Blake Byer</name><email>bbyer04@gmail.com</email></author><entry><title type="html">Introduction to Probability</title><link href="https://blakebyer.github.io//blog/2025/07/31/probabilityintro.html" rel="alternate" type="text/html" title="Introduction to Probability" /><published>2025-07-31T00:00:00+00:00</published><updated>2025-07-31T00:00:00+00:00</updated><id>https://blakebyer.github.io//blog/2025/07/31/probabilityintro</id><content type="html" xml:base="https://blakebyer.github.io//blog/2025/07/31/probabilityintro.html"><![CDATA[<h2 id="the-birthday-paradox">The Birthday Paradox</h2>
+<p>Consider the question, how many people must be a room such that the probability of at least two will share a birthday exceeds 50%?</p>
 
-<table>
-  <thead>
-    <tr>
-      <th>Operation</th>
-      <th>Notation</th>
-      <th>Meaning</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Addition</td>
-      <td>\(a + b\)</td>
-      <td>Add a and b</td>
-    </tr>
-    <tr>
-      <td>Subtraction</td>
-      <td>\(a - b\)</td>
-      <td>Subtract b from a</td>
-    </tr>
-    <tr>
-      <td>Multiplication</td>
-      <td>\(a \times b\) or \(ab\) or \(a \cdot b\)</td>
-      <td>Multiply a and b</td>
-    </tr>
-    <tr>
-      <td>Division</td>
-      <td>\(\frac{a}{b}\) or \(a \div b\)</td>
-      <td>Divide a by b</td>
-    </tr>
-    <tr>
-      <td>Remainder</td>
-      <td>\(a \bmod b\)</td>
-      <td>Remainder when a ÷ b</td>
-    </tr>
-    <tr>
-      <td>Negative</td>
-      <td>\(-a\)</td>
-      <td>Negative a</td>
-    </tr>
-    <tr>
-      <td>Square</td>
-      <td>\(a^2\)</td>
-      <td>a squared</td>
-    </tr>
-    <tr>
-      <td>Cube</td>
-      <td>\(a^3\)</td>
-      <td>a cubed</td>
-    </tr>
-    <tr>
-      <td>To power</td>
-      <td>\(a^b\)</td>
-      <td>a to the power of b</td>
-    </tr>
-    <tr>
-      <td>Square root</td>
-      <td>\(\sqrt{a}\)</td>
-      <td>Square root of a</td>
-    </tr>
-    <tr>
-      <td>Cube root</td>
-      <td>\(\sqrt[3]{a}\)</td>
-      <td>Cube root of a</td>
-    </tr>
-    <tr>
-      <td>nth root</td>
-      <td>\(\sqrt[n]{a}\)</td>
-      <td>nth root of a</td>
-    </tr>
-  </tbody>
-</table>
+<p>You might guess about 182 because it’s half the days in a year, or 100 because it’s a nice round number. However, the answer might surprise you.</p>
 
-<hr />
+<p>The correct answer is just 23 people. How can this be true?! The answer lies in probability theory. Let the event A be that of a group of k people not having any repeated birthdays, and let B be that of a group of k people having at least two who share a birthday, i.e. \(P(B) = 1 - P(A)\).</p>
 
-<h2 id="equality-symbols">Equality Symbols</h2>
+<figure>
+  <img src="/assets/images/Birthday_Paradox.png" alt="Birthday paradox" />
+  <figcaption><em> The probability function of the birthday problem P(B) for n people. Illustration by Rajkiran g, CC BY-SA 3.0 via Wikimedia Commons.
+  </em></figcaption>
+</figure>
+
+<p>To calculate the number of k persons to exceed 50% one technique we might use is to decrement the number of possible shared birthdays for \(n+1\) people. For person 1 there is 100% chance they don’t share their birthday with another person, when adding person 2, there is a \(\frac{364}{365}\) chance they don’t share their birthday with person 1, and this continues as a conditional probability until you reach \(&gt;50%\).</p>
+
+<p>\(P(A) = \frac{365}{365} \times \frac{364}{365} \times 
+\frac{363}{365} \times \frac{362}{365} \times \dots \times \frac{343}{365} \approx 0.493 \newline\therefore P(B) \approx 1-0.493 = 0.507\).</p>
+
+<p>A more concise way of representing this is the probability function \(\bar{p} = \frac{365!}{365^n(365-n)!}\). An approximation to try (that doesn’t require numerical methods) is \(n\geq \frac{1}{2} + \sqrt{\frac{1}{4} + 2\times\ln{2}\times 365}\).</p>
+
+<p>A quick refresher on combinations and permutations. The number of combinations (order doesn’t matter) of n choose r is \(C(n, r)= \frac{n!}{r!(n-r)!}\) where \(!\) is the factorial operator (e.g. \(4! = 4\times 3\times 2\times 1 = 24\)). Similarly, the number of permutations (order does matter) is \(P(n, r) = \frac{n!}{(n-r)!}\). For both of these formulas, \(n\) is the number of total objects, and \(r\) is the number of objects chosen at once.</p>
+
+<h2 id="conditional-probability">Conditional Probability</h2>
+<p>Conditional probability is the probablity of one thing happening given that another event has already occurred.</p>
+
+<h2 id="joint-probability">Joint Probability</h2>
+<p>Joint probability is the probability of two or more events occurring simultaneously.</p>]]></content><author><name>Blake Byer</name><email>bbyer04@gmail.com</email></author><category term="blog" /><summary type="html"><![CDATA[Basics of probability]]></summary></entry><entry><title type="html">Math Notation Sheet</title><link href="https://blakebyer.github.io//blog/2025/07/30/mathnotation.html" rel="alternate" type="text/html" title="Math Notation Sheet" /><published>2025-07-30T00:00:00+00:00</published><updated>2025-07-30T00:00:00+00:00</updated><id>https://blakebyer.github.io//blog/2025/07/30/mathnotation</id><content type="html" xml:base="https://blakebyer.github.io//blog/2025/07/30/mathnotation.html"><![CDATA[<h2 id="algebra-symbols">Algebra Symbols</h2>
 
 <table>
   <thead>
@@ -84,53 +34,6 @@
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td>\(3 + 1 = 2 + 2\)</td>
-      <td>Equals</td>
-    </tr>
-    <tr>
-      <td>\(3 \ne 4\)</td>
-      <td>Not equal</td>
-    </tr>
-    <tr>
-      <td>\(a \equiv b\)</td>
-      <td>Identical</td>
-    </tr>
-    <tr>
-      <td>\(a \propto b\)</td>
-      <td>Proportional to</td>
-    </tr>
-    <tr>
-      <td>\(\sin(0.01) \approx 0.01\)</td>
-      <td>Approximately equal</td>
-    </tr>
-  </tbody>
-</table>
-
-<hr />
-
-<h2 id="algebra-symbols">Algebra Symbols</h2>
-
-<table>
-  <thead>
-    <tr>
-      <th>Notation</th>
-      <th>Meaning</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>\(5! = 5 \times 4 \times 3 \times 2 \times 1\)</td>
-      <td>Factorial</td>
-    </tr>
-    <tr>
-      <td>\(f(x) = x^2\)</td>
-      <td>Function of x</td>
-    </tr>
-    <tr>
-      <td>\(a - b\)</td>
-      <td>Difference</td>
-    </tr>
     <tr>
       <td>\(\sum_{i=1}^{n} x_i\)</td>
       <td>Sum</td>
@@ -185,83 +88,6 @@
     <tr>
       <td>\(\sigma^2\)</td>
       <td>Variance</td>
-    </tr>
-  </tbody>
-</table>
-
-<hr />
-
-<h2 id="comparison">Comparison</h2>
-
-<table>
-  <thead>
-    <tr>
-      <th>Notation</th>
-      <th>Meaning</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>\(a &lt; b\)</td>
-      <td>Less than</td>
-    </tr>
-    <tr>
-      <td>\(a &gt; b\)</td>
-      <td>Greater than</td>
-    </tr>
-    <tr>
-      <td>\(a \le b\)</td>
-      <td>Less than or equal</td>
-    </tr>
-    <tr>
-      <td>\(a \ge b\)</td>
-      <td>Greater than or equal</td>
-    </tr>
-  </tbody>
-</table>
-
-<hr />
-
-<h2 id="angles">Angles</h2>
-
-<table>
-  <thead>
-    <tr>
-      <th>Notation</th>
-      <th>Meaning</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>\(\pi = 3.14159\ldots\)</td>
-      <td>Pi</td>
-    </tr>
-    <tr>
-      <td>\(360^\circ = 2\pi\)</td>
-      <td>Degrees to radians</td>
-    </tr>
-    <tr>
-      <td>\(\angle\), \(\sin\), \(\cos\), \(\tan\)</td>
-      <td>Trigonometric functions</td>
-    </tr>
-  </tbody>
-</table>
-
-<hr />
-
-<h2 id="brackets">Brackets</h2>
-
-<table>
-  <thead>
-    <tr>
-      <th>Notation</th>
-      <th>Interpretation</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>\(y = [(2x-1)(x+3)]^2\)</td>
-      <td>Parentheses → Brackets → Powers</td>
     </tr>
   </tbody>
 </table>
@@ -513,7 +339,7 @@
 
 <hr />
 
-<p><em>By Dominic Walliman (2018)</em></p>]]></content><author><name>Blake Byer</name><email>bbyer04@gmail.com</email></author><category term="blog" /><summary type="html"><![CDATA[A math symbols cheat sheet]]></summary></entry><entry><title type="html">Introduction to Statistics for Biologists</title><link href="https://blakebyer.github.io//blog/2025/07/30/statsintro.html" rel="alternate" type="text/html" title="Introduction to Statistics for Biologists" /><published>2025-07-30T00:00:00+00:00</published><updated>2025-07-30T00:00:00+00:00</updated><id>https://blakebyer.github.io//blog/2025/07/30/statsintro</id><content type="html" xml:base="https://blakebyer.github.io//blog/2025/07/30/statsintro.html"><![CDATA[<h2 id="why-learn-statistics">Why learn statistics?</h2>
+<p><em>By Dominic Walliman (2018)</em></p>]]></content><author><name>Blake Byer</name><email>bbyer04@gmail.com</email></author><category term="blog" /><summary type="html"><![CDATA[A math symbols cheat sheet]]></summary></entry><entry><title type="html">Introduction to Statistics</title><link href="https://blakebyer.github.io//blog/2025/07/30/statsintro.html" rel="alternate" type="text/html" title="Introduction to Statistics" /><published>2025-07-30T00:00:00+00:00</published><updated>2025-07-30T00:00:00+00:00</updated><id>https://blakebyer.github.io//blog/2025/07/30/statsintro</id><content type="html" xml:base="https://blakebyer.github.io//blog/2025/07/30/statsintro.html"><![CDATA[<h2 id="introduction">Introduction</h2>
 <p>Statistics is the backbone of impactful, reproducible research. Properly done, statistics provide us with basis for cause and effect (known as causal inference). I wanted to write a few supplementary articles for myself and others to understand the basics of probability, statistics, and linear algebra to boost their research. If you get stuck on the notation, please check the <a href="/blog/2025/07/30/mathnotation.html">Math Notation Sheet</a>. First, an inspiring image from our friends in biostatistics, a sub-field of statistics devoted to creating and applying statistical methods to biological data.</p>
 
 <figure>
@@ -522,25 +348,48 @@
   </em></figcaption>
 </figure>
 
-<h2 id="introduction">Introduction</h2>
-<p>The simple <b>arithmetic mean</b> \(\bar{x}\) of a set is 
-\(M = \frac{1}{n}\sum_{i=1}^{n}x_i\).</p>
+<!--
+The simple <b>arithmetic mean</b> $$\bar{x}$$ of a set is 
+$$
+M = \frac{1}{n}\sum_{i=1}^{n}x_i
+$$.
 
-<p>The <b>geometric mean</b> is the \(n\)th root of the product of the elements in a set.
-\(G = (\prod_{i=1}^{n}x_i)^{\frac{1}{n}} = \sqrt[n]{x_1, x_2, ..., x_n}\)</p>
+The <b>geometric mean</b> is the $$n$$th root of the product of the elements in a set.
+$$
+G = (\prod_{i=1}^{n}x_i)^{\frac{1}{n}} = \sqrt[n]{x_1, x_2, ..., x_n}
+$$
 
-<p>Finally, the <b>harmonic mean</b> is the number of values \(n\) over the sum of the values’ reciprocals.
-\(H = \frac{n}{\frac{1}{x_1} + \frac{1}{x_2} + ... + \frac{1}{x_n}} = \frac{n}{\sum_{i=1}^{n}\frac{1}{x_i}}\)</p>
+Finally, the <b>harmonic mean</b> is the number of values $$n$$ over the sum of the values' reciprocals.
+$$
+H = \frac{n}{\frac{1}{x_1} + \frac{1}{x_2} + ... + \frac{1}{x_n}} = \frac{n}{\sum_{i=1}^{n}\frac{1}{x_i}}
+$$
+-->
+<h3 id="boxplots-and-tukeys-fence">Boxplots and Tukey’s fence</h3>
+<p>A boxplot, also known as a box-and-whisker plot, is a way to represent numerical data with a visual estimation of the data’s locality (center of the data), spread (from the median), and skewness (asymmetry of the data). It is composed of a box spread across the interquartile range (Q3-Q1), a vertical line at the median (\(\tilde{x}\)), and whiskers capped by fences located at the minimum and maximum of the dataset.</p>
 
-<p><b>Standard deviation</b> \(\sigma\), also abbreviated as SD, is a measure of the amount of variation of the values of a variable about its mean.
-\(\sigma = \sqrt{\frac{1}{N}\sum_{i=1}^{N}(x_i - \bar{x})^2}\)
-if values \(i\) through \(N\) represent the entire population. If values are selected at random, a correction is applied (Bessel’s correction), such that
-\(\sigma = \sqrt{\frac{1}{N - 1}\sum_{i=1}^{N}(x_i - \bar{x})^2}\).</p>
+<figure>
+  <img src="/assets/images/Labeled_Box_and_Whisker_Plot.png" alt="Box and whisker plot" />
+  <figcaption><em> A labeled box and whisker plot. Note that this distribution is skewed left. Illustration by KStrileckis, CC0 via Wikimedia Commons.
+  </em></figcaption>
+</figure>
 
-<p><b>Variance</b> is quantifies the spread of data around a sample mean and is just \(\sigma^2\). A higher variance means greater spread.</p>
+<p>A common heuristic for an outlier are Tukey’s fences, which is defined as \([Q1-k\times IQR, Q3+k\times IQR]\) where \(IQR = Q3-Q1\) and \(k = 1.5\). Another variation of the boxplot is a notched boxplot, which is especially useful when comparing distributions between categories. The notch’s position is often set by \(\tilde{x}\pm \frac{1.58\times IQR}{\sqrt{n}}\).</p>
+
+<p>The design of the boxplot lends itself to easy calculation of summary statistics. The five used by Tukey are discussed below. While the boxplot offers a visual representation of locality, skewness, and spread, here is the mathematical basis of each.</p>
+
+<ol>
+  <li>Locality: mean, median, and mode.</li>
+  <li>Skewness:
+\(\tilde{\mu_3} = \frac{\sum_{i}^{N}(X_i - \bar{X})^3}{(N-1)\times\sigma^3}\)
+where \(N\) = number of variables in the distribution
+\(X_i\) = random variable
+\(\bar{X}\) = mean of the distribution
+\(\sigma\) = standard deviation</li>
+  <li>Spread: range (max - min), IQR, standard deviation, variance</li>
+</ol>
 
 <h3 id="summary-statistics">Summary Statistics</h3>
-<p>The Tukey Five-Number Summary (after the mathematician John Wilder Tukey) of a data set consists of the:</p>
+<p>The Tukey Five-Number Summary (after the mathematician John Tukey) of a data set consists of the:</p>
 <ol>
   <li>Minimum (Min)</li>
   <li>Quartile I (Q1): 25% of the data are less than or equal to this value</li>
@@ -548,6 +397,13 @@ if values \(i\) through \(N\) represent the entire population. If values are sel
   <li>Quartile 3 (Q3): 75% of the data are less than or equal to this value</li>
   <li>Maximum (Max)</li>
 </ol>
+
+<p><b>Standard deviation</b> \(\sigma\), also abbreviated as SD, is a measure of the amount of variation of the values of a variable about its mean.
+\(\sigma = \sqrt{\frac{1}{N}\sum_{i=1}^{N}(x_i - \bar{x})^2}\)
+if values \(i\) through \(N\) represent the entire population. If values are selected at random, a correction is applied (Bessel’s correction), such that
+\(\sigma = \sqrt{\frac{1}{N - 1}\sum_{i=1}^{N}(x_i - \bar{x})^2}\).</p>
+
+<p><b>Variance</b> is quantifies the spread of data around a sample mean and is just \(\sigma^2\). A higher variance means greater spread.</p>
 
 <h2 id="sampling-methods">Sampling Methods</h2>
 <p>In a <b>simple random sample</b>, every member of the population has an equal chance of being selected is \(\frac{1}{N}\).</p>
@@ -571,7 +427,7 @@ if values \(i\) through \(N\) represent the entire population. If values are sel
 on the domain
 \(x\in(-\infty, \infty)\).</p>
 
-<p>To illustrate, assume the mean \(\mu = 0\) and the variance \(\sigma^2 = 1\). \(\sigma\) alone is the standard deviation (the square root of the variance). Therefore, when \(x = 0\), \(P(x)\) has an absolute maximum at
+<p>To illustrate, assume the mean \(\mu = 0\) and the variance \(\sigma^2 = 1\). \(\sigma\) alone is the standard deviation (the square root of the variance). Therefore, when \(x = 0\), \(P(x)\) is
 \(\frac{1}{1\sqrt{2\pi}}e^{\frac{-(0-0)^2}{2(1)^2}} = \frac{1}{1\sqrt{2\pi}}\).</p>
 
 <p>A <b>Z-score</b> is quantified as the number of standard deviations a value falls away from the sample mean. To calculate a Z-score
@@ -581,9 +437,9 @@ where \(\mu\) is the mean of the population, and \(\sigma\) is the standard devi
 <p>The Z-score can help us describe the normal distribution in quantiles. The empirical rule (68-95-99.7 rule) of the normal distribution states that approximately 68% of the data falls within 1 SD of the mean, 95% within 2 SD, and 99.7% within 3 SD of the mean.</p>
 
 <h2 id="looking-ahead">Looking Ahead</h2>
-<p>I hope these formulas help you understand how summary statistics are calculated, such as the arithmetic mean, standard deviation, or variance.</p>
+<p>I hope these formulas help you understand how summary statistics are calculated, such as the skewness, standard deviation, or variance.</p>
 
-<p>Stay tuned for next time, where we will cover the basics of probability. Future posts will cover hypothesis testing, linear models, and dimensionality reduction. Stay curious!</p>]]></content><author><name>Blake Byer</name><email>bbyer04@gmail.com</email></author><category term="blog" /><summary type="html"><![CDATA[Let's add another tool to our toolbelt]]></summary></entry><entry><title type="html">Cells of the Nervous System</title><link href="https://blakebyer.github.io//blog/2025/06/18/neurocells.html" rel="alternate" type="text/html" title="Cells of the Nervous System" /><published>2025-06-18T00:00:00+00:00</published><updated>2025-06-18T00:00:00+00:00</updated><id>https://blakebyer.github.io//blog/2025/06/18/neurocells</id><content type="html" xml:base="https://blakebyer.github.io//blog/2025/06/18/neurocells.html"><![CDATA[<h2 id="levels-of-organization-in-multicellular-organisms">Levels of Organization in Multicellular Organisms</h2>
+<p>Stay tuned for next time, where we will cover the basics of probability. Future posts will cover hypothesis testing, linear models, and dimensionality reduction. Stay curious!</p>]]></content><author><name>Blake Byer</name><email>bbyer04@gmail.com</email></author><category term="blog" /></entry><entry><title type="html">Cells of the Nervous System</title><link href="https://blakebyer.github.io//blog/2025/06/18/neurocells.html" rel="alternate" type="text/html" title="Cells of the Nervous System" /><published>2025-06-18T00:00:00+00:00</published><updated>2025-06-18T00:00:00+00:00</updated><id>https://blakebyer.github.io//blog/2025/06/18/neurocells</id><content type="html" xml:base="https://blakebyer.github.io//blog/2025/06/18/neurocells.html"><![CDATA[<h2 id="levels-of-organization-in-multicellular-organisms">Levels of Organization in Multicellular Organisms</h2>
 <p>In order from smallest to largest, an organism is composed of:</p>
 <ol>
   <li>Organelles: cellular components built for specific functions (e.g. endoplasmic reticulum).</li>

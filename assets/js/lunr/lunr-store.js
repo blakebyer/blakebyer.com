@@ -30,14 +30,20 @@ var store = [{
         "teaser": null
       },{
         "title": "Math Notation Sheet",
-        "excerpt":"Arithmetic Operation Notation Meaning Addition \\(a + b\\) Add a and b Subtraction \\(a - b\\) Subtract b from a Multiplication \\(a \\times b\\) or \\(ab\\) or \\(a \\cdot b\\) Multiply a and b Division \\(\\frac{a}{b}\\) or \\(a \\div b\\) Divide a by b Remainder \\(a \\bmod b\\) Remainder when...","categories": ["blog"],
+        "excerpt":"Algebra Symbols Notation Meaning \\(\\sum_{i=1}^{n} x_i\\) Sum \\(\\prod_{i=1}^{n} x_i\\) Product Probability and Statistics Notation Meaning \\(P(A)\\) Probability of A \\(P(A \\cap B)\\) A and B (intersection) \\(P(A \\cup B)\\) A or B (union) \\(P(A \\mid B)\\) Conditional probability \\(\\mu\\) Mean (population) \\(\\bar{x}\\) Mean (sample) \\(\\sigma\\) Standard deviation \\(\\sigma^2\\) Variance Linear...","categories": ["blog"],
         "tags": [],
         "url": "/blog/2025/07/30/mathnotation.html",
         "teaser": null
       },{
-        "title": "Introduction to Statistics for Biologists",
-        "excerpt":"Why learn statistics? Statistics is the backbone of impactful, reproducible research. Properly done, statistics provide us with basis for cause and effect (known as causal inference). I wanted to write a few supplementary articles for myself and others to understand the basics of probability, statistics, and linear algebra to boost...","categories": ["blog"],
+        "title": "Introduction to Statistics",
+        "excerpt":"Introduction Statistics is the backbone of impactful, reproducible research. Properly done, statistics provide us with basis for cause and effect (known as causal inference). I wanted to write a few supplementary articles for myself and others to understand the basics of probability, statistics, and linear algebra to boost their research....","categories": ["blog"],
         "tags": [],
         "url": "/blog/2025/07/30/statsintro.html",
+        "teaser": null
+      },{
+        "title": "Introduction to Probability",
+        "excerpt":"The Birthday Paradox Consider the question, how many people must be a room such that the probability of at least two will share a birthday exceeds 50%? You might guess about 182 because it’s half the days in a year, or 100 because it’s a nice round number. However, the...","categories": ["blog"],
+        "tags": [],
+        "url": "/blog/2025/07/31/probabilityintro.html",
         "teaser": null
       }]
