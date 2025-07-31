@@ -49,7 +49,7 @@ The Tukey Five-Number Summary (after the mathematician John Wilder Tukey) of a d
 2. Quartile I (Q1): 25% of the data are less than or equal to this value
 3. Quartile 2 (Q2) aka the median: 50% of the data are less than or equal to this value
 4. Quartile 3 (Q3): 75% of the data are less than or equal to this value
-5. Maximum (Max) of the data set
+5. Maximum (Max)
 
 ## Sampling Methods ##
 In a <b>simple random sample</b>, every member of the population has an equal chance of being selected is $$\frac{1}{N}$$.
@@ -91,4 +91,6 @@ where $$\mu$$ is the mean of the population, and $$\sigma$$ is the standard devi
 The Z-score can help us describe the normal distribution in quantiles. The empirical rule (68-95-99.7 rule) of the normal distribution states that approximately 68% of the data falls within 1 SD of the mean, 95% within 2 SD, and 99.7% within 3 SD of the mean.
 
 ## Looking Ahead ##
-I hope these few formulas help you understand how summary statistics are calculated. 
+I hope these formulas help you understand how summary statistics are calculated, such as the arithmetic mean, standard deviation, or variance. 
+
+Stay tuned for next time, where we will cover the basics of probability! Future posts will cover hypothesis testing, linear models, and dimensionality reduction. Stay curious!
