@@ -36,7 +36,7 @@ var store = [{
         "teaser": null
       },{
         "title": "Introduction to Statistics for Biologists",
-        "excerpt":"Why learn statistics? Statistics are the backbone of impactful, reproducible research. Properly done, statistics provide us with basis for cause and effect (known as causal inference). I wanted to write a few supplementary articles for myself and others to understand the basics of probability, statistics, and linear algebra to boost...","categories": ["blog"],
+        "excerpt":"Why learn statistics? Statistics is the backbone of impactful, reproducible research. Properly done, statistics provide us with basis for cause and effect (known as causal inference). I wanted to write a few supplementary articles for myself and others to understand the basics of probability, statistics, and linear algebra to boost...","categories": ["blog"],
         "tags": [],
         "url": "/blog/2025/07/30/statsintro.html",
         "teaser": null
