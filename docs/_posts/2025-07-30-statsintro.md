@@ -49,11 +49,11 @@ The design of the boxplot lends itself to easy calculation of summary statistics
 $$\tilde{\mu_3} = \frac{\sum_{i}^{N}(X_i - \bar{X})^3}{(N-1)\times\sigma^3}$$
 where 
 
-  $$N$$ = number of variables in the distribution
+$$N$$ = number of variables in the distribution
 
-  $$X_i$$ = random variable
+$$X_i$$ = random variable
 
-  $$\bar{X}$$ = mean of the distribution
+$$\bar{X}$$ = mean of the distribution
 
 $$\sigma$$ = standard deviation
 3. Spread: range (max - min), IQR, standard deviation, or variance.
