@@ -8,7 +8,7 @@ math: true
 ---
 
 ## Why learn statistics? ##
-Statistics are the backbone of impactful, reproducible research. Properly done, statistics provide us with basis for cause and effect (known as causal inference). I wanted to write a few supplementary articles for myself and others to understand the basics of probability, statistics, and linear algebra to boost their research. If you get stuck on the notation, please check the [Math Notation Sheet]({% post_url 2025-07-30-mathnotation %}). First, an inspiring image from our friends in biostatistics, a sub-field of statistics devoted to creating and applying statistical methods to biological or medical data.
+Statistics is the backbone of impactful, reproducible research. Properly done, statistics provide us with basis for cause and effect (known as causal inference). I wanted to write a few supplementary articles for myself and others to understand the basics of probability, statistics, and linear algebra to boost their research. If you get stuck on the notation, please check the [Math Notation Sheet]({% post_url 2025-07-30-mathnotation %}). First, an inspiring image from our friends in biostatistics, a sub-field of statistics devoted to creating and applying statistical methods to biological data.
 
 <figure>
   <img src="/assets/images/ebpi_research_dep_biostatistics_2480x1529px.png" alt="Biostatistics">
