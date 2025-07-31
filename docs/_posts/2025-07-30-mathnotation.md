@@ -1,14 +1,11 @@
 ---
-title: Math Symbols Cheat Sheet
+title: Math Notation Sheet
 date: 2025-07-30
 layout: single
 categories: [blog]
 excerpt: "A math symbols cheat sheet"
 math: true
 ---
-
-# Math Notation Cheat Sheet
-
 ## Arithmetic
 
 | Operation       | Notation    | Meaning                  |
