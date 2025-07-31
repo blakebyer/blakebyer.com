@@ -21,10 +21,13 @@ The correct answer is just 23 people. How can this be true?! The answer lies in 
 
 To calculate the number of k persons to exceed 50% one technique we might use is to decrement the number of possible shared birthdays for $$n+1$$ people. For person 1 there is 100% chance they don't share their birthday with another person, when adding person 2, there is a $$\frac{364}{365}$$ chance they don't share their birthday with person 1, and this continues as a conditional probability until you reach >50%. 
 
-$$P(A) = \frac{365}{365} \times \frac{364}{365} \times 
-\frac{363}{365} \times \frac{362}{365} \times \dots \times \frac{343}{365} \approx 0.493
-
-\therefore P(B) \approx 1-0.493 = 0.507$$.
+\[
+\begin{array}{l}
+P(A) = \frac{365}{365} \times \frac{364}{365} \times 
+\frac{363}{365} \times \dots \times \frac{343}{365} \approx 0.493 \\
+\therefore P(B) \approx 1 - 0.493 = 0.507
+\end{array}
+\]
 
 A more concise way of representing this is the probability function $$\bar{p} = \frac{365!}{365^n(365-n)!}$$. An approximation to try (that doesn't require numerical methods) is $$n\geq \frac{1}{2} + \sqrt{\frac{1}{4} + 2\times\ln{2}\times 365}$$.
 
