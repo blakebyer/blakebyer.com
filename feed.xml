@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://blakebyer.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://blakebyer.github.io//" rel="alternate" type="text/html" /><updated>2025-07-30T23:37:05+00:00</updated><id>https://blakebyer.github.io//feed.xml</id><title type="html">Blake Byer</title><subtitle>This is the personal webpage of Blake Byer.</subtitle><author><name>Blake Byer</name><email>bbyer04@gmail.com</email></author><entry><title type="html">Math Symbols Cheat Sheet</title><link href="https://blakebyer.github.io//blog/2025/07/30/mathnotation.html" rel="alternate" type="text/html" title="Math Symbols Cheat Sheet" /><published>2025-07-30T00:00:00+00:00</published><updated>2025-07-30T00:00:00+00:00</updated><id>https://blakebyer.github.io//blog/2025/07/30/mathnotation</id><content type="html" xml:base="https://blakebyer.github.io//blog/2025/07/30/mathnotation.html"><![CDATA[<h1 id="math-notation-cheat-sheet">Math Notation Cheat Sheet</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://blakebyer.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://blakebyer.github.io//" rel="alternate" type="text/html" /><updated>2025-07-31T00:07:57+00:00</updated><id>https://blakebyer.github.io//feed.xml</id><title type="html">Blake Byer</title><subtitle>This is the personal webpage of Blake Byer.</subtitle><author><name>Blake Byer</name><email>bbyer04@gmail.com</email></author><entry><title type="html">Math Symbols Cheat Sheet</title><link href="https://blakebyer.github.io//blog/2025/07/30/mathnotation.html" rel="alternate" type="text/html" title="Math Symbols Cheat Sheet" /><published>2025-07-30T00:00:00+00:00</published><updated>2025-07-30T00:00:00+00:00</updated><id>https://blakebyer.github.io//blog/2025/07/30/mathnotation</id><content type="html" xml:base="https://blakebyer.github.io//blog/2025/07/30/mathnotation.html"><![CDATA[<h1 id="math-notation-cheat-sheet">Math Notation Cheat Sheet</h1>
 
 <h2 id="arithmetic">Arithmetic</h2>
 
@@ -372,12 +372,12 @@
       <td>Delta</td>
     </tr>
     <tr>
-      <td>\(\Epsilon\)</td>
+      <td>\(E\)</td>
       <td>\(\epsilon\)</td>
       <td>Epsilon</td>
     </tr>
     <tr>
-      <td>\(\Zeta\)</td>
+      <td>\(Z\)</td>
       <td>\(\zeta\)</td>
       <td>Zeta</td>
     </tr>
@@ -483,46 +483,32 @@
     <tr>
       <th>Notation</th>
       <th>Meaning</th>
-      <th> </th>
-      <th> </th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>\(z = 3 + 2i\)</td>
       <td>Complex number</td>
-      <td> </td>
-      <td> </td>
     </tr>
     <tr>
       <td>\(i^2 = -1\)</td>
       <td>Imaginary unit</td>
-      <td> </td>
-      <td> </td>
     </tr>
     <tr>
       <td>\(\text{Re}(z)\)</td>
       <td>Real part of z</td>
-      <td> </td>
-      <td> </td>
     </tr>
     <tr>
       <td>\(\text{Im}(z)\)</td>
       <td>Imaginary part of z</td>
-      <td> </td>
-      <td> </td>
     </tr>
     <tr>
-      <td>$$</td>
-      <td>z</td>
-      <td>= \sqrt{a^2 + b^2} $$</td>
+      <td>\(|z| = \sqrt{a^2 + b^2}\)</td>
       <td>Modulus of complex number</td>
     </tr>
     <tr>
       <td>\(\bar{z} = a - bi\)</td>
       <td>Complex conjugate</td>
-      <td> </td>
-      <td> </td>
     </tr>
   </tbody>
 </table>
@@ -530,7 +516,13 @@
 <hr />
 
 <p><em>By Dominic Walliman (2018)</em></p>]]></content><author><name>Blake Byer</name><email>bbyer04@gmail.com</email></author><category term="blog" /><summary type="html"><![CDATA[A math symbols cheat sheet]]></summary></entry><entry><title type="html">Introduction to Statistics for Biologists</title><link href="https://blakebyer.github.io//blog/2025/07/30/statsintro.html" rel="alternate" type="text/html" title="Introduction to Statistics for Biologists" /><published>2025-07-30T00:00:00+00:00</published><updated>2025-07-30T00:00:00+00:00</updated><id>https://blakebyer.github.io//blog/2025/07/30/statsintro</id><content type="html" xml:base="https://blakebyer.github.io//blog/2025/07/30/statsintro.html"><![CDATA[<h2 id="why-learn-statistics">Why learn statistics?</h2>
-<p>Statistics are the backbone of impactful, reproducible research. Properly done, statistics provide us with basis for cause and effect (known as causal inference). I wanted to write a few supplementary articles for myself and others to understand the basics of probability, statistics, and linear algebra to boost their research.</p>
+<p>Statistics are the backbone of impactful, reproducible research. Properly done, statistics provide us with basis for cause and effect (known as causal inference). I wanted to write a few supplementary articles for myself and others to understand the basics of probability, statistics, and linear algebra to boost their research. If you get stuck on the notation, please check the <a href="/blog/2025/07/30/mathnotation.html">Math Notation Sheet</a>. First, an inspiring image from our friends in biostatistics, a sub-field of statistics devoted to creating and applying statistical methods to biological or medical data.</p>
+
+<figure>
+  <img src="/assets/images/ebpi_research_dep_biostatistics_2480x1529px.png" alt="Biostatistics" />
+  <figcaption><em> Illustration of censoring and intervention in a longitudinal cohort study, where individuals may drop out, experience events, or continue follow-up. Image courtesy of the Biostatistics Department, University of Zurich (UZH).
+  </em></figcaption>
+</figure>
 
 <h2 id="introduction">Introduction</h2>
 <p>The simple <b>arithmetic mean</b> \(\bar{x}\) of a set is 
@@ -549,8 +541,22 @@ if values \(i\) through \(N\) represent the entire population. If values are sel
 
 <p><b>Variance</b> is quantifies the spread of data around a sample mean and is just \(\sigma^2\). A higher variance means greater spread.</p>
 
+<h3 id="summary-statistics">Summary Statistics</h3>
+<p>The Tukey Five-Number Summary (after the mathematician John Wilder Tukey) of a data set consists of the:</p>
+<ol>
+  <li>Minimum (Min)</li>
+  <li>Quartile I (Q1): 25% of the data are less than or equal to this value</li>
+  <li>Quartile 2 (Q2) aka the median: 50% of the data are less than or equal to this value</li>
+  <li>Quartile 3 (Q3): 75% of the data are less than or equal to this value</li>
+  <li>Maximum (Max) of the data set</li>
+</ol>
+
 <h2 id="sampling-methods">Sampling Methods</h2>
 <p>In a <b>simple random sample</b>, every member of the population has an equal chance of being selected is \(\frac{1}{N}\).</p>
+
+<p>In a <b>stratified sample</b>, the population is divided into homogeneous subgroups (strata), and a random sample is drawn from each stratum. This ensures representation across key subgroups.</p>
+
+<p>In a <b>systematic sample</b>, individuals are selected at regular intervals from an ordered list — for example, every \(k^\text{th}\) person, where \(k = \frac{N}{n}\).</p>
 
 <h2 id="normal-distribution">Normal Distribution</h2>
 <p>Let’s start with a normal (Gaussian) distribution, also known as a bell curve.</p>
@@ -567,14 +573,17 @@ if values \(i\) through \(N\) represent the entire population. If values are sel
 on the domain
 \(x\in(-\infty, \infty)\)</p>
 
-<p>Let’s break it down, assuming the mean \(\mu = 0\) and the variance \(\sigma^2 = 1\). \(\sigma\) alone is the standard deviation. Therefore, when \(x = 0\), \(P(x)\) has an absolute maximum at
+<p>To illustrate, assume the mean \(\mu = 0\) and the variance \(\sigma^2 = 1\). \(\sigma\) alone is the standard deviation (the square root of the variance). Therefore, when \(x = 0\), \(P(x)\) has an absolute maximum at
 \(\frac{1}{1\sqrt{2\pi}}e^{\frac{-(0-0)^2}{2(1)^2}} = \frac{1}{1\sqrt{2\pi}}\).</p>
 
 <p>A <b>Z-score</b> is quantified as the number of standard deviations a value falls away from the sample mean. To calculate a Z-score
 \(z = \frac{x - \mu}{\sigma}\)
 where \(\mu\) is the mean of the population, and \(\sigma\) is the standard deviation of the population.</p>
 
-<p>The Z-score can help us describe the normal distribution in quantiles. The empirical rule (68-95-99.7 rule) of the normal distribution states that approximately 68% of the data falls within 1 SD of the mean, 95% within 2 SD, and 99.7% within 3 SD of the mean.</p>]]></content><author><name>Blake Byer</name><email>bbyer04@gmail.com</email></author><category term="blog" /><summary type="html"><![CDATA[Let's add another tool to our toolbelt]]></summary></entry><entry><title type="html">Cells of the Nervous System</title><link href="https://blakebyer.github.io//blog/2025/06/18/neurocells.html" rel="alternate" type="text/html" title="Cells of the Nervous System" /><published>2025-06-18T00:00:00+00:00</published><updated>2025-06-18T00:00:00+00:00</updated><id>https://blakebyer.github.io//blog/2025/06/18/neurocells</id><content type="html" xml:base="https://blakebyer.github.io//blog/2025/06/18/neurocells.html"><![CDATA[<h2 id="levels-of-organization-in-multicellular-organisms">Levels of Organization in Multicellular Organisms</h2>
+<p>The Z-score can help us describe the normal distribution in quantiles. The empirical rule (68-95-99.7 rule) of the normal distribution states that approximately 68% of the data falls within 1 SD of the mean, 95% within 2 SD, and 99.7% within 3 SD of the mean.</p>
+
+<h2 id="looking-ahead">Looking Ahead</h2>
+<p>I hope these few formulas help you understand how summary statistics are calculated.</p>]]></content><author><name>Blake Byer</name><email>bbyer04@gmail.com</email></author><category term="blog" /><summary type="html"><![CDATA[Let's add another tool to our toolbelt]]></summary></entry><entry><title type="html">Cells of the Nervous System</title><link href="https://blakebyer.github.io//blog/2025/06/18/neurocells.html" rel="alternate" type="text/html" title="Cells of the Nervous System" /><published>2025-06-18T00:00:00+00:00</published><updated>2025-06-18T00:00:00+00:00</updated><id>https://blakebyer.github.io//blog/2025/06/18/neurocells</id><content type="html" xml:base="https://blakebyer.github.io//blog/2025/06/18/neurocells.html"><![CDATA[<h2 id="levels-of-organization-in-multicellular-organisms">Levels of Organization in Multicellular Organisms</h2>
 <p>In order from smallest to largest, an organism is composed of:</p>
 <ol>
   <li>Organelles: cellular components built for specific functions (e.g. endoplasmic reticulum).</li>
@@ -760,7 +769,7 @@ When referring to the brain:</p>
   </em></figcaption>
 </figure>
 
-<h2 id="why-should-you-care">Why should you care?</h2>
+<h2 id="closing-thoughts">Closing Thoughts</h2>
 <p>In the wise words of Wilder Penfield (1891-1976), an American-Canadian neurosurgeon:</p>
 
 <blockquote>
