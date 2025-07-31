@@ -35,8 +35,8 @@ $$
 A boxplot, also known as a box-and-whisker plot, is a way to represent numerical data with a visual estimation of the data's locality (center of the data), spread (from the median), and skewness (asymmetry of the data). It is composed of a box spread across the interquartile range (Q3-Q1), a vertical line at the median ($$\tilde{x}$$), and whiskers capped by fences located at the minimum and maximum of the dataset. 
 
 <figure>
-  <img src="/assets/images/Labeled_Box_and_Whisker_Plot.png" alt="Box and whisker plot">
-  <figcaption><em> A labeled box and whisker plot. Note that this distribution is skewed left. Illustration by KStrileckis, CC0 via Wikimedia Commons.
+  <img src="/assets/images/Elements_of_a_boxplot.png" alt="Box and whisker plot">
+  <figcaption><em> A labeled box and whisker plot. Note that this distribution is skewed left. Illustration by RobSeb, CC-BY-SA-3.0 via Wikimedia Commons.
   </em></figcaption>
 </figure>
 
@@ -44,14 +44,19 @@ A common heuristic for an outlier are Tukey's fences, which is defined as $$[Q1-
 
 The design of the boxplot lends itself to easy calculation of summary statistics. The five used by Tukey are discussed below. While the boxplot offers a visual representation of locality, skewness, and spread, here is the mathematical basis of each.
 
-1. Locality: mean, median, and mode.
+1. Locality: mean, median, or mode.
 2. Skewness:
 $$\tilde{\mu_3} = \frac{\sum_{i}^{N}(X_i - \bar{X})^3}{(N-1)\times\sigma^3}$$
-where $$N$$ = number of variables in the distribution
+where 
+
+$$N$$ = number of variables in the distribution
+
 $$X_i$$ = random variable
+
 $$\bar{X}$$ = mean of the distribution
+
 $$\sigma$$ = standard deviation
-3. Spread: range (max - min), IQR, standard deviation, variance
+3. Spread: range (max - min), IQR, standard deviation, or variance.
 
 ### Summary Statistics ###
 The Tukey Five-Number Summary (after the mathematician John Tukey) of a data set consists of the:
