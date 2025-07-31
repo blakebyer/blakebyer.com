@@ -79,7 +79,7 @@ Tissue in the central nervous system can be further divided into gray and white 
   </em></figcaption>
 </figure>
 
-## Why should you care? ##
+## Closing Thoughts ##
 In the wise words of Wilder Penfield (1891-1976), an American-Canadian neurosurgeon:
  
 > The brain is the organ of destiny. It holds within its humming mechanism secrets that will determine the future of the human race.

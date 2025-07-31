@@ -8,7 +8,13 @@ math: true
 ---
 
 ## Why learn statistics? ##
-Statistics are the backbone of impactful, reproducible research. Properly done, statistics provide us with basis for cause and effect (known as causal inference). I wanted to write a few supplementary articles for myself and others to understand the basics of probability, statistics, and linear algebra to boost their research.
+Statistics are the backbone of impactful, reproducible research. Properly done, statistics provide us with basis for cause and effect (known as causal inference). I wanted to write a few supplementary articles for myself and others to understand the basics of probability, statistics, and linear algebra to boost their research. If you get stuck on the notation, please check the [Math Notation Sheet]({% post_url 2025-07-30-mathnotation %}). First, an inspiring image from our friends in biostatistics, a sub-field of statistics devoted to creating and applying statistical methods to biological or medical data.
+
+<figure>
+  <img src="/assets/images/ebpi_research_dep_biostatistics_2480x1529px.png" alt="Biostatistics">
+  <figcaption><em> Illustration of censoring and intervention in a longitudinal cohort study, where individuals may drop out, experience events, or continue follow-up. Image courtesy of the Biostatistics Department, University of Zurich (UZH).
+  </em></figcaption>
+</figure>
 
 ## Introduction ##
 The simple <b>arithmetic mean</b> $$\bar{x}$$ of a set is 
@@ -37,8 +43,20 @@ $$
 
 <b>Variance</b> is quantifies the spread of data around a sample mean and is just $$\sigma^2$$. A higher variance means greater spread.
 
+### Summary Statistics ###
+The Tukey Five-Number Summary (after the mathematician John Wilder Tukey) of a data set consists of the:
+1. Minimum (Min)
+2. Quartile I (Q1): 25% of the data are less than or equal to this value
+3. Quartile 2 (Q2) aka the median: 50% of the data are less than or equal to this value
+4. Quartile 3 (Q3): 75% of the data are less than or equal to this value
+5. Maximum (Max) of the data set
+
 ## Sampling Methods ##
 In a <b>simple random sample</b>, every member of the population has an equal chance of being selected is $$\frac{1}{N}$$.
+
+In a <b>stratified sample</b>, the population is divided into homogeneous subgroups (strata), and a random sample is drawn from each stratum. This ensures representation across key subgroups.
+
+In a <b>systematic sample</b>, individuals are selected at regular intervals from an ordered list — for example, every $$k^\text{th}$$ person, where $$k = \frac{N}{n}$$.
 
 ## Normal Distribution ##
 Let's start with a normal (Gaussian) distribution, also known as a bell curve.
@@ -59,7 +77,7 @@ $$
 x\in(-\infty, \infty)
 $$
 
-Let's break it down, assuming the mean $$\mu = 0$$ and the variance $$\sigma^2 = 1$$. $$\sigma$$ alone is the standard deviation. Therefore, when $$x = 0$$, $$P(x)$$ has an absolute maximum at
+To illustrate, assume the mean $$\mu = 0$$ and the variance $$\sigma^2 = 1$$. $$\sigma$$ alone is the standard deviation (the square root of the variance). Therefore, when $$x = 0$$, $$P(x)$$ has an absolute maximum at
 $$
 \frac{1}{1\sqrt{2\pi}}e^{\frac{-(0-0)^2}{2(1)^2}} = \frac{1}{1\sqrt{2\pi}}
 $$.
@@ -71,3 +89,6 @@ $$
 where $$\mu$$ is the mean of the population, and $$\sigma$$ is the standard deviation of the population.
 
 The Z-score can help us describe the normal distribution in quantiles. The empirical rule (68-95-99.7 rule) of the normal distribution states that approximately 68% of the data falls within 1 SD of the mean, 95% within 2 SD, and 99.7% within 3 SD of the mean.
+
+## Looking Ahead ##
+I hope these few formulas help you understand how summary statistics are calculated. 

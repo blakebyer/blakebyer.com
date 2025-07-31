@@ -128,8 +128,8 @@ math: true
 | $$ B $$   | $$ \beta $$    | Beta      |
 | $$ \Gamma $$ | $$ \gamma $$  | Gamma     |
 | $$ \Delta $$ | $$ \delta $$  | Delta     |
-| $$ \Epsilon $$ | $$ \epsilon $$ | Epsilon   |
-| $$ \Zeta $$ | $$ \zeta $$    | Zeta      |
+| $$ E $$ | $$ \epsilon $$ | Epsilon   |
+| $$ Z $$ | $$ \zeta $$    | Zeta      |
 | $$ \Theta $$ | $$ \theta $$  | Theta     |
 | $$ \Lambda $$ | $$ \lambda $$ | Lambda    |
 | $$ \Xi $$ | $$ \xi $$        | Xi        |
@@ -168,7 +168,7 @@ math: true
 | $$ i^2 = -1 $$                | Imaginary unit                  |
 | $$ \text{Re}(z) $$            | Real part of z                  |
 | $$ \text{Im}(z) $$            | Imaginary part of z             |
-| $$ |z| = \sqrt{a^2 + b^2} $$  | Modulus of complex number       |
+| $$ \|z\| = \sqrt{a^2 + b^2} $$  | Modulus of complex number       |
 | $$ \bar{z} = a - bi $$        | Complex conjugate               |
 
 ---
