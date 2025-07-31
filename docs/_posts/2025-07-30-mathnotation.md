@@ -6,44 +6,11 @@ categories: [blog]
 excerpt: "A math symbols cheat sheet"
 math: true
 ---
-## Arithmetic
-
-| Operation       | Notation    | Meaning                  |
-|----------------|-------------|--------------------------|
-| Addition        | $$ a + b $$ | Add a and b              |
-| Subtraction     | $$ a - b $$ | Subtract b from a        |
-| Multiplication  | $$ a \times b $$ or $$ ab $$ or $$ a \cdot b $$ | Multiply a and b |
-| Division        | $$ \frac{a}{b} $$ or $$ a \div b $$ | Divide a by b      |
-| Remainder       | $$ a \bmod b $$ | Remainder when a ÷ b |
-| Negative        | $$ -a $$     | Negative a               |
-| Square          | $$ a^2 $$    | a squared                |
-| Cube            | $$ a^3 $$    | a cubed                  |
-| To power        | $$ a^b $$    | a to the power of b      |
-| Square root     | $$ \sqrt{a} $$ | Square root of a       |
-| Cube root       | $$ \sqrt[3]{a} $$ | Cube root of a     |
-| nth root        | $$ \sqrt[n]{a} $$ | nth root of a       |
-
----
-
-## Equality Symbols
-
-| Notation           | Meaning                        |
-|--------------------|--------------------------------|
-| $$ 3 + 1 = 2 + 2 $$ | Equals                         |
-| $$ 3 \ne 4 $$       | Not equal                      |
-| $$ a \equiv b $$    | Identical                      |
-| $$ a \propto b $$   | Proportional to                |
-| $$ \sin(0.01) \approx 0.01 $$ | Approximately equal |
-
----
 
 ## Algebra Symbols
 
 | Notation              | Meaning                     |
 |-----------------------|-----------------------------|
-| $$ 5! = 5 \times 4 \times 3 \times 2 \times 1 $$ | Factorial |
-| $$ f(x) = x^2 $$       | Function of x               |
-| $$ a - b $$            | Difference                  |
 | $$ \sum_{i=1}^{n} x_i $$ | Sum                       |
 | $$ \prod_{i=1}^{n} x_i $$ | Product                  |
 
@@ -61,35 +28,6 @@ math: true
 | $$ \bar{x} $$       | Mean (sample)                  |
 | $$ \sigma $$        | Standard deviation             |
 | $$ \sigma^2 $$      | Variance                       |
-
----
-
-## Comparison
-
-| Notation      | Meaning          |
-|---------------|------------------|
-| $$ a < b $$   | Less than        |
-| $$ a > b $$   | Greater than     |
-| $$ a \le b $$ | Less than or equal |
-| $$ a \ge b $$ | Greater than or equal |
-
----
-
-## Angles
-
-| Notation                     | Meaning                   |
-|------------------------------|---------------------------|
-| $$ \pi = 3.14159\ldots $$     | Pi                        |
-| $$ 360^\circ = 2\pi $$       | Degrees to radians        |
-| $$ \angle $$, $$ \sin $$, $$ \cos $$, $$ \tan $$ | Trigonometric functions |
-
----
-
-## Brackets
-
-| Notation                    | Interpretation                  |
-|-----------------------------|----------------------------------|
-| $$ y = [(2x-1)(x+3)]^2 $$   | Parentheses → Brackets → Powers |
 
 ---
 
