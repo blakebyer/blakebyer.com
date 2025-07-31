@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://blakebyer.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://blakebyer.github.io//" rel="alternate" type="text/html" /><updated>2025-07-31T06:13:22+00:00</updated><id>https://blakebyer.github.io//feed.xml</id><title type="html">Blake Byer</title><subtitle>This is the personal webpage of Blake Byer.</subtitle><author><name>Blake Byer</name><email>bbyer04@gmail.com</email></author><entry><title type="html">Introduction to Probability</title><link href="https://blakebyer.github.io//blog/2025/07/31/probabilityintro.html" rel="alternate" type="text/html" title="Introduction to Probability" /><published>2025-07-31T00:00:00+00:00</published><updated>2025-07-31T00:00:00+00:00</updated><id>https://blakebyer.github.io//blog/2025/07/31/probabilityintro</id><content type="html" xml:base="https://blakebyer.github.io//blog/2025/07/31/probabilityintro.html"><![CDATA[<h2 id="the-birthday-paradox">The Birthday Paradox</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://blakebyer.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://blakebyer.github.io//" rel="alternate" type="text/html" /><updated>2025-07-31T06:16:47+00:00</updated><id>https://blakebyer.github.io//feed.xml</id><title type="html">Blake Byer</title><subtitle>This is the personal webpage of Blake Byer.</subtitle><author><name>Blake Byer</name><email>bbyer04@gmail.com</email></author><entry><title type="html">Introduction to Probability</title><link href="https://blakebyer.github.io//blog/2025/07/31/probabilityintro.html" rel="alternate" type="text/html" title="Introduction to Probability" /><published>2025-07-31T00:00:00+00:00</published><updated>2025-07-31T00:00:00+00:00</updated><id>https://blakebyer.github.io//blog/2025/07/31/probabilityintro</id><content type="html" xml:base="https://blakebyer.github.io//blog/2025/07/31/probabilityintro.html"><![CDATA[<h2 id="the-birthday-paradox">The Birthday Paradox</h2>
 <p>Consider the question, how many people must be a room such that the probability of at least two will share a birthday exceeds 50%?</p>
 
-<p>You might guess about 182 because it’s half the days in a year, or 100 because it’s a nice round number. However, the answer might surprise you.</p>
+<p>You might guess about 182 because it’s about half the days in a year, or 100 because it’s a nice round number. However, the answer might surprise you.</p>
 
 <p>The correct answer is just 23 people. How can this be true?! The answer lies in probability theory. Let the event A be that of a group of k people not having any repeated birthdays, and let B be that of a group of k people having at least two who share a birthday, i.e. \(P(B) = 1 - P(A)\).</p>
 
@@ -14,11 +14,10 @@
 <p>To calculate the number of k persons to exceed 50% one technique we might use is to decrement the number of possible shared birthdays for \(n+1\) people. For person 1 there is 100% chance they don’t share their birthday with another person, when adding person 2, there is a \(\frac{364}{365}\) chance they don’t share their birthday with person 1, and this continues as a conditional probability until you reach &gt;50%.</p>
 
 <p>[
-\begin{array}{l}
-P(A) = \frac{365}{365} \times \frac{364}{365} \times 
-\frac{363}{365} \times \dots \times \frac{343}{365} \approx 0.493 <br />
-\therefore P(B) \approx 1 - 0.493 = 0.507
-\end{array}
+\begin{align<em>}
+P(A) &amp;= \frac{365}{365} \times \frac{364}{365} \times \cdots \times \frac{343}{365} \approx 0.493 <br />
+\therefore P(B) &amp;\approx 1 - 0.493 = 0.507
+\end{align</em>}
 ]</p>
 
 <p>A more concise way of representing this is the probability function \(\bar{p} = \frac{365!}{365^n(365-n)!}\). An approximation to try (that doesn’t require numerical methods) is \(n\geq \frac{1}{2} + \sqrt{\frac{1}{4} + 2\times\ln{2}\times 365}\).</p>
