@@ -75,7 +75,7 @@ $$
 on the domain
 $$
 x\in(-\infty, \infty)
-$$
+$$.
 
 To illustrate, assume the mean $$\mu = 0$$ and the variance $$\sigma^2 = 1$$. $$\sigma$$ alone is the standard deviation (the square root of the variance). Therefore, when $$x = 0$$, $$P(x)$$ has an absolute maximum at
 $$
