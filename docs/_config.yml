@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Blake Byer
-email: bbyer04@gmail.com
+email: blake.byer@uky.edu
 description: >-
   This is the personal webpage of Blake Byer.
 baseurl: "" 

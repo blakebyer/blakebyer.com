@@ -6,7 +6,6 @@ categories: [blog]
 excerpt: "How many people must be in a room such that the probability at least two sharing a birthday exceeds 50%?"
 math: true
 ---
-## The Birthday Paradox ##
 Consider the question, how many people must be a room such that the probability of at least two will share a birthday exceeds 50%?
 
 You might guess about 182 because it's about half the days in a year, or 100 because it's a nice round number. However, the answer might surprise you. 
@@ -27,7 +26,7 @@ $$\therefore P(B) \approx 1 - 0.493 = 0.507$$
 
 A more concise way of representing this is the probability function $$\bar{p} = \frac{365!}{365^n(365-n)!}$$. An approximation to try (that doesn't require numerical methods) is $$n\geq \frac{1}{2} + \sqrt{\frac{1}{4} + 2\times\ln{2}\times 365}$$.
 
-I hope you liked this introduction to probability with this fun brain teaser called the Birthday Paradox. Stay curious!
+I hope you liked this introduction to probability with the Birthday Paradox. Stay curious!
 
 <!-- A quick refresher on combinations and permutations. The number of combinations (order doesn't matter) of n choose r is $$C(n, r)= \frac{n!}{r!(n-r)!}$$ where $$!$$ is the factorial operator (e.g. $$4! = 4\times 3\times 2\times 1 = 24$$). Similarly, the number of permutations (order does matter) is $$P(n, r) = \frac{n!}{(n-r)!}$$. For both of these formulas, $$n$$ is the number of total objects, and $$r$$ is the number of objects chosen at once. 
 

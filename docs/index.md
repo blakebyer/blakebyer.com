@@ -6,6 +6,4 @@ layout: home
 title: Home
 author_profile: true
 ---
-Hello, I'm Blake Byer, a student at the University of Kentucky. I study neuroscience and computer science.
-
-Feel free to browse around!
+Hello, I'm Blake Byer, a fourth-year neuroscience student at the University of Kentucky. 
