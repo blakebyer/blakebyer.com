@@ -4,6 +4,7 @@ date: 2024-07-04
 layout: single
 categories: [blog]
 excerpt: Will run for donuts
+published: false
 ---
 
 This morning, I ran the Four on the Fourth Race in Carrboro, North Carolina. This race was a part of le Tour de Carrboro series.

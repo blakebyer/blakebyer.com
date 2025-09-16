@@ -5,6 +5,7 @@ layout: single
 categories: [blog]
 excerpt: "A math symbols cheat sheet"
 math: true
+published: false
 ---
 
 ## Algebra Symbols

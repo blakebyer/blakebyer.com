@@ -4,6 +4,7 @@ date: 2025-06-17
 layout: single
 categories: [blog]
 excerpt: "A gentle introduction to neuroscience"
+published: false
 ---
 ## What is your brain? ##
 The brain is a 3-pound organ about the size of two balled up fists sitting within your skull (cranium). It is the gatekeeper to your conscious experience of reality, the source of your intellect, and the lifeforce of your bodily functions.

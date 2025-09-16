@@ -4,6 +4,7 @@ date: 2025-06-18
 layout: single
 categories: [blog]
 excerpt: "A primer on cells in the nervous system"
+published: false
 ---
 ## Levels of Organization in Multicellular Organisms ##
 In order from smallest to largest, an organism is composed of:

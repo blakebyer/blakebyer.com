@@ -5,6 +5,7 @@ layout: single
 categories: [blog]
 excerpt: "Basics of probability"
 math: true
+published: false
 ---
 ## The Birthday Paradox ##
 Consider the question, how many people must be a room such that the probability of at least two will share a birthday exceeds 50%?
