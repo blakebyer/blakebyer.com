@@ -5,6 +5,7 @@ layout: single
 categories: [blog]
 excerpt: "Let's add another tool to our toolbelt"
 math: true
+published: false
 ---
 ## Introduction ##
 Statistics is the backbone of impactful, reproducible research. Properly done, statistics provide us with basis for cause and effect (known as causal inference). I wanted to write a few supplementary articles for myself and others to understand the basics of probability, statistics, and linear algebra to boost their research. If you get stuck on the notation, please check the [Math Notation Sheet]({% post_url 2025-07-30-mathnotation %}). First, an inspiring image from our friends in biostatistics, a sub-field of statistics devoted to creating and applying statistical methods to biological data.
