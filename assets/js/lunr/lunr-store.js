@@ -4,4 +4,10 @@ var store = [{
         "tags": [],
         "url": "/blog/2025/05/15/glbio25.html",
         "teaser": null
+      },{
+        "title": "The Birthday Paradox",
+        "excerpt":"The Birthday Paradox Consider the question, how many people must be a room such that the probability of at least two will share a birthday exceeds 50%? You might guess about 182 because it’s about half the days in a year, or 100 because it’s a nice round number. However,...","categories": ["blog"],
+        "tags": [],
+        "url": "/blog/2025/07/31/probabilityintro.html",
+        "teaser": null
       }]
