@@ -1,11 +1,10 @@
 ---
-title: Introduction to Probability
+title: The Birthday Paradox
 date: 2025-07-31
 layout: single
 categories: [blog]
-excerpt: "Basics of probability"
+excerpt: "How many people must be in a room such that the probability at least two sharing a birthday exceeds 50%?"
 math: true
-published: false
 ---
 ## The Birthday Paradox ##
 Consider the question, how many people must be a room such that the probability of at least two will share a birthday exceeds 50%?
@@ -28,10 +27,12 @@ $$\therefore P(B) \approx 1 - 0.493 = 0.507$$
 
 A more concise way of representing this is the probability function $$\bar{p} = \frac{365!}{365^n(365-n)!}$$. An approximation to try (that doesn't require numerical methods) is $$n\geq \frac{1}{2} + \sqrt{\frac{1}{4} + 2\times\ln{2}\times 365}$$.
 
-A quick refresher on combinations and permutations. The number of combinations (order doesn't matter) of n choose r is $$C(n, r)= \frac{n!}{r!(n-r)!}$$ where $$!$$ is the factorial operator (e.g. $$4! = 4\times 3\times 2\times 1 = 24$$). Similarly, the number of permutations (order does matter) is $$P(n, r) = \frac{n!}{(n-r)!}$$. For both of these formulas, $$n$$ is the number of total objects, and $$r$$ is the number of objects chosen at once. 
+I hope you liked this introduction to probability with this fun brain teaser called the Birthday Paradox. Stay curious!
+
+<!-- A quick refresher on combinations and permutations. The number of combinations (order doesn't matter) of n choose r is $$C(n, r)= \frac{n!}{r!(n-r)!}$$ where $$!$$ is the factorial operator (e.g. $$4! = 4\times 3\times 2\times 1 = 24$$). Similarly, the number of permutations (order does matter) is $$P(n, r) = \frac{n!}{(n-r)!}$$. For both of these formulas, $$n$$ is the number of total objects, and $$r$$ is the number of objects chosen at once. 
 
 ## Conditional Probability ##
 Conditional probability is the probablity of one thing happening given that another event has already occurred. 
 
 ## Joint Probability ##
-Joint probability is the probability of two or more events occurring simultaneously.
+Joint probability is the probability of two or more events occurring simultaneously. -->
