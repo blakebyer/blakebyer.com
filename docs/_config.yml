@@ -18,7 +18,7 @@ email: blake@blakebyer.com
 description: >-
   This is the personal webpage of Blake Byer.
 baseurl: "" 
-url: "https://blakebyer.github.io/"
+url: "https://blakebyer.com/"
 github_username: blakebyer
 
 # Use remote Cayman theme from GitHub Pages
