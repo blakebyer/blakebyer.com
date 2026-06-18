@@ -1,32 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://blakebyer.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://blakebyer.github.io//" rel="alternate" type="text/html" /><updated>2025-09-17T01:02:56+00:00</updated><id>https://blakebyer.github.io//feed.xml</id><title type="html">Blake Byer</title><subtitle>This is the personal webpage of Blake Byer.</subtitle><author><name>Blake Byer</name><email>bbyer04@gmail.com</email></author><entry><title type="html">The Birthday Paradox</title><link href="https://blakebyer.github.io//blog/2025/07/31/probabilityintro.html" rel="alternate" type="text/html" title="The Birthday Paradox" /><published>2025-07-31T00:00:00+00:00</published><updated>2025-07-31T00:00:00+00:00</updated><id>https://blakebyer.github.io//blog/2025/07/31/probabilityintro</id><content type="html" xml:base="https://blakebyer.github.io//blog/2025/07/31/probabilityintro.html"><![CDATA[<p>Consider the question, how many people must be a room such that the probability of at least two will share a birthday exceeds 50%?</p>
-
-<p>You might guess about 182 because it’s about half the days in a year, or 100 because it’s a nice round number. However, the answer might surprise you.</p>
-
-<p>The correct answer is just 23 people. How can this be true?! The answer lies in probability theory. Let the event A be that of a group of k people not having any repeated birthdays, and let B be that of a group of k people having at least two who share a birthday, i.e. \(P(B) = 1 - P(A)\).</p>
-
-<figure>
-  <img src="/assets/images/Birthday_Paradox.png" alt="Birthday paradox" />
-  <figcaption><em> The probability function of the birthday problem P(B) for n people. Illustration by Rajkiran g, CC BY-SA 3.0 via Wikimedia Commons.
-  </em></figcaption>
-</figure>
-
-<p>To calculate the number of k persons to exceed 50% one technique we might use is to decrement the number of possible shared birthdays for \(n+1\) people. For person 1 there is 100% chance they don’t share their birthday with another person, when adding person 2, there is a \(\frac{364}{365}\) chance they don’t share their birthday with person 1, and this continues as a conditional probability until you reach &gt;50%.</p>
-
-\[P(A)= \frac{365}{365} \times \frac{364}{365} \times \cdots \times \frac{343}{365} \approx 0.493\]
-
-\[\therefore P(B) \approx 1 - 0.493 = 0.507\]
-
-<p>A more concise way of representing this is the probability function \(\bar{p} = \frac{365!}{365^n(365-n)!}\). An approximation to try (that doesn’t require numerical methods) is \(n\geq \frac{1}{2} + \sqrt{\frac{1}{4} + 2\times\ln{2}\times 365}\).</p>
-
-<p>I hope you liked this introduction to probability with the Birthday Paradox. Stay curious!</p>
-
-<!-- A quick refresher on combinations and permutations. The number of combinations (order doesn't matter) of n choose r is $$C(n, r)= \frac{n!}{r!(n-r)!}$$ where $$!$$ is the factorial operator (e.g. $$4! = 4\times 3\times 2\times 1 = 24$$). Similarly, the number of permutations (order does matter) is $$P(n, r) = \frac{n!}{(n-r)!}$$. For both of these formulas, $$n$$ is the number of total objects, and $$r$$ is the number of objects chosen at once. 
-
-## Conditional Probability ##
-Conditional probability is the probablity of one thing happening given that another event has already occurred. 
-
-## Joint Probability ##
-Joint probability is the probability of two or more events occurring simultaneously. -->]]></content><author><name>Blake Byer</name><email>bbyer04@gmail.com</email></author><category term="blog" /><summary type="html"><![CDATA[How many people must be in a room such that the probability at least two sharing a birthday exceeds 50%?]]></summary></entry><entry><title type="html">GLBIO 2025</title><link href="https://blakebyer.github.io//blog/2025/05/15/glbio25.html" rel="alternate" type="text/html" title="GLBIO 2025" /><published>2025-05-15T00:00:00+00:00</published><updated>2025-05-15T00:00:00+00:00</updated><id>https://blakebyer.github.io//blog/2025/05/15/glbio25</id><content type="html" xml:base="https://blakebyer.github.io//blog/2025/05/15/glbio25.html"><![CDATA[<p>I spent last week in Minneapolis, Minnesota at the International Society for Computational Biology Great Lakes Bioinformatics Conference, aptly named
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://blakebyer.com//feed.xml" rel="self" type="application/atom+xml" /><link href="https://blakebyer.com//" rel="alternate" type="text/html" /><updated>2026-06-18T02:50:31+00:00</updated><id>https://blakebyer.com//feed.xml</id><title type="html">Blake Byer</title><subtitle>This is the personal webpage of Blake Byer.</subtitle><author><name>Blake Byer</name><email>blake@blakebyer.com</email></author><entry><title type="html">GLBIO 2025</title><link href="https://blakebyer.com//blog/2025/05/15/glbio25.html" rel="alternate" type="text/html" title="GLBIO 2025" /><published>2025-05-15T00:00:00+00:00</published><updated>2025-05-15T00:00:00+00:00</updated><id>https://blakebyer.com//blog/2025/05/15/glbio25</id><content type="html" xml:base="https://blakebyer.com//blog/2025/05/15/glbio25.html"><![CDATA[<p>I spent last week in Minneapolis, Minnesota at the International Society for Computational Biology Great Lakes Bioinformatics Conference, aptly named
 GLBIO 2025. I presented a poster on Alzheimer’s disease drug repurposing using multi-ontology enrichment analysis, with an a priori gene set derived 
 from AD GWAS. Using this method I prioritized approximately 100 FDA-approved repurposable drugs and I discovered that 7 out of 89 (8%) FDA-approved drugs interacting
 with AD risk genes are used to treat AD, suggesting ample repurposing opportunities!</p>
@@ -88,4 +60,4 @@ sequence (first, middle, last), as well as apparent cyclic oscillations every 24
 transformer models like DNABERT or HyenaDNA, perhaps due to 6-mer tokenization during training. Our preprint is out on <a href="https://www.biorxiv.org/content/10.1101/2025.04.09.647946v1.full">bioRxiv</a> and under review at Nucleic Acids Research.</p>
 
 <p>I met lots of great people at GLBIO 2025. Shout out to Stephen, Amanda, Garrett, and Harrison all of BYU, and Dionizije and Mateo of Entropic! Science can bring people across
-the world together, from Provo, Utah to Zagreb, Croatia.</p>]]></content><author><name>Blake Byer</name><email>bbyer04@gmail.com</email></author><category term="blog" /><summary type="html"><![CDATA[The real treasure are the friends we make along the way]]></summary></entry></feed>
+the world together, from Provo, Utah to Zagreb, Croatia.</p>]]></content><author><name>Blake Byer</name><email>blake@blakebyer.com</email></author><category term="blog" /><summary type="html"><![CDATA[The real treasure are the friends we make along the way]]></summary></entry></feed>
