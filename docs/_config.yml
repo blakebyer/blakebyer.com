@@ -14,11 +14,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Blake Byer
-email: blake.byer@uky.edu
+email: blake@blakebyer.com
 description: >-
   This is the personal webpage of Blake Byer.
 baseurl: "" 
-url: "https://blakebyer.github.io/"
+url: "https://blakebyer.com/"
 github_username: blakebyer
 
 # Use remote Cayman theme from GitHub Pages
@@ -62,9 +62,9 @@ include:
 author:
   name: "Blake Byer"
   avatar: "/assets/images/profile3.jpg"   # path to your image
-  bio: "Systems neuroscience researcher"
+  bio: "Systems neuroscientist"
   location: "USA"
-  email: "bbyer04@gmail.com"
+  email: "blake@blakebyer.com"
   links:
   - label: "GitHub"
     icon: "fab fa-fw fa-github"
@@ -72,9 +72,9 @@ author:
   - label: "LinkedIn"
     icon: "fab fa-fw fa-linkedin"
     url: "https://linkedin.com/in/blake-byer"
-  - label: "Instagram"
-    icon: "fab fa-fw fa-instagram"
-    url: "https://instagram.com/memreneuro"
+  # - label: "Instagram"
+  #   icon: "fab fa-fw fa-instagram"
+  #   url: "https://instagram.com/memreneuro"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

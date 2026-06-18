@@ -6,4 +6,4 @@ layout: home
 title: Home
 author_profile: true
 ---
-Hello, I'm Blake Byer, a fourth-year neuroscience student at the University of Kentucky. 
+Hello, I am Blake Byer, an incoming MSc in neuroscience student at the University of Oxford.

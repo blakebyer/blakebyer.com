@@ -5,6 +5,7 @@ layout: single
 categories: [blog]
 excerpt: "How many people must be in a room such that the probability at least two sharing a birthday exceeds 50%?"
 math: true
+published: false
 ---
 Consider the question, how many people must be a room such that the probability of at least two will share a birthday exceeds 50%?
 
