@@ -8,11 +8,11 @@ published: false
 ---
 ## Levels of Organization in Multicellular Organisms ##
 In order from smallest to largest, an organism is composed of:
-1. Organelles: cellular components built for specific functions (e.g. endoplasmic reticulum).
+1. Organelles: cellular components built for specific functions (e.g., endoplasmic reticulum).
 2. Cells: basic subunit of biology (e.g. nerve cell).
-3. Tissue: a group of similar cells that perform a specific function (e.g. smooth muscle).
-4. Organ: many tissue types forming a contiguous body to perform a more complex function (e.g. heart, lungs, or brain).
-5. Organ System: a collection of organs that work together to perform a major bodily function (e.g. digestive system).
+3. Tissue: a group of similar cells that perform a specific function (e.g., smooth muscle).
+4. Organ: many tissue types forming a contiguous body to perform a more complex function (e.g., heart, lungs, or brain).
+5. Organ System: a collection of organs that work together to perform a major bodily function (e.g., digestive system).
 
 <figure>
     <img

@@ -15,8 +15,8 @@
 # in the templates via {{ site.myvariable }}.
 title: Blake Byer
 email: blake@blakebyer.com
-description: >-
-  This is the personal webpage of Blake Byer.
+# description: >-
+#   This is the personal webpage of Blake Byer.
 baseurl: "" 
 url: "https://blakebyer.com/"
 github_username: blakebyer
@@ -38,7 +38,6 @@ graphviz:
 header_pages:
   - index.md
   - blog.md
-  - projects.md
   - about.md
 defaults:
   # _posts
@@ -51,7 +50,7 @@ defaults:
       read_time: true
       show_date: true
       comments: false
-      share: false
+      share: true
       related: true
 
 search: true
