@@ -65,6 +65,9 @@ author:
   location: "USA"
   email: "blake@blakebyer.com"
   links:
+  - label: "Google Scholar"
+    icon: "fas fa-fw fa-graduation-cap"
+    url: "https://scholar.google.com/citations?user=VbD4rYUAAAAJ"
   - label: "GitHub"
     icon: "fab fa-fw fa-github"
     url: "https://github.com/blakebyer"
